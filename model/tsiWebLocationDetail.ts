@@ -12,13 +12,13 @@
 
 
 export interface TsiWebLocationDetail {
-    itemId?: string;
-    location?: string;
-    bin?: string;
-    min?: number;
-    max?: number;
-    quantity?: number;
-    reserved?: number;
-    dateIn?: Date;
-    dateOut?: Date;
+    ItemId?: string;
+    Location?: string;
+    Bin?: string;
+    Min?: number;
+    Max?: number;
+    Quantity?: number;
+    Reserved?: number;
+    DateIn?: Date;
+    DateOut?: Date;
 }

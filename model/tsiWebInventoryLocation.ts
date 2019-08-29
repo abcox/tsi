@@ -12,16 +12,16 @@
 
 
 export interface TsiWebInventoryLocation {
-    location?: string;
-    description?: string;
-    locationType?: string;
-    address1?: string;
-    address2?: string;
-    city?: string;
-    state?: string;
-    postalCode?: string;
-    contactName?: string;
-    contactPhone?: string;
-    isSpecialLocation?: boolean;
-    isSystemEntry?: boolean;
+    Location?: string;
+    Description?: string;
+    LocationType?: string;
+    Address1?: string;
+    Address2?: string;
+    City?: string;
+    State?: string;
+    PostalCode?: string;
+    ContactName?: string;
+    ContactPhone?: string;
+    IsSpecialLocation?: boolean;
+    IsSystemEntry?: boolean;
 }

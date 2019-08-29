@@ -12,10 +12,10 @@
 
 
 export interface TsiWebSupportedSystem {
-    description?: string;
-    type?: string;
-    techSkillLevel?: number;
-    skill?: string;
-    comments?: string;
-    repGroup?: string;
+    Description?: string;
+    Type?: string;
+    TechSkillLevel?: number;
+    Skill?: string;
+    Comments?: string;
+    RepGroup?: string;
 }

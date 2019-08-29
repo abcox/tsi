@@ -13,7 +13,7 @@ import { TsiWebServiceOrderResolution } from './tsiWebServiceOrderResolution';
 
 
 export interface TsiWebServiceOrderResolutionResponse {
-    serviceOrderResolutions?: Array<TsiWebServiceOrderResolution>;
-    success?: boolean;
-    message?: string;
+    ServiceOrderResolutions?: Array<TsiWebServiceOrderResolution>;
+    Success?: boolean;
+    Message?: string;
 }

@@ -13,7 +13,7 @@ import { TsiWebServiceOrderNote } from './tsiWebServiceOrderNote';
 
 
 export interface TsiWebServiceOrderNoteResponse {
-    note?: TsiWebServiceOrderNote;
-    success?: boolean;
-    message?: string;
+    Note?: TsiWebServiceOrderNote;
+    Success?: boolean;
+    Message?: string;
 }

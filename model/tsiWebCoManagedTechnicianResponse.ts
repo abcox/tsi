@@ -13,7 +13,7 @@ import { TsiWebCoManagedTechnician } from './tsiWebCoManagedTechnician';
 
 
 export interface TsiWebCoManagedTechnicianResponse {
-    technicians?: Array<TsiWebCoManagedTechnician>;
-    success?: boolean;
-    message?: string;
+    Technicians?: Array<TsiWebCoManagedTechnician>;
+    Success?: boolean;
+    Message?: string;
 }

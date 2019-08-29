@@ -13,10 +13,10 @@ import { TsiWebServiceOrderPartUsed } from './tsiWebServiceOrderPartUsed';
 
 
 export interface TsiWebServiceOrderPartsUsedResponse {
-    partsUsed?: Array<TsiWebServiceOrderPartUsed>;
-    pageSize?: number;
-    nextRow?: number;
-    totalCount?: number;
-    success?: boolean;
-    message?: string;
+    PartsUsed?: Array<TsiWebServiceOrderPartUsed>;
+    PageSize?: number;
+    NextRow?: number;
+    TotalCount?: number;
+    Success?: boolean;
+    Message?: string;
 }

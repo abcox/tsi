@@ -12,6 +12,6 @@
 
 
 export interface TsiWebPagedRequest {
-    pageSize?: number;
-    startRow?: number;
+    PageSize?: number;
+    StartRow?: number;
 }

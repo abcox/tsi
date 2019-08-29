@@ -13,20 +13,20 @@ import { TsiWebOpportunity } from './tsiWebOpportunity';
 
 
 export interface TsiWebOpportunitySummary {
-    opportunityNumber?: number;
-    opportunity?: TsiWebOpportunity;
-    accountName?: string;
-    phoneNumber?: string;
-    faxNumber?: string;
-    ownerName?: string;
-    ownerEmailAddress?: string;
-    ownerPhoneNumber?: string;
-    contactName?: string;
-    contactEmailAddress?: string;
-    contactPhoneNumber?: string;
-    stageDescription?: string;
-    stageProbabilityOfSale?: number;
-    journalEntries?: number;
-    pastDueTasks?: number;
-    openQuotes?: number;
+    OpportunityNumber?: number;
+    Opportunity?: TsiWebOpportunity;
+    AccountName?: string;
+    PhoneNumber?: string;
+    FaxNumber?: string;
+    OwnerName?: string;
+    OwnerEmailAddress?: string;
+    OwnerPhoneNumber?: string;
+    ContactName?: string;
+    ContactEmailAddress?: string;
+    ContactPhoneNumber?: string;
+    StageDescription?: string;
+    StageProbabilityOfSale?: number;
+    JournalEntries?: number;
+    PastDueTasks?: number;
+    OpenQuotes?: number;
 }

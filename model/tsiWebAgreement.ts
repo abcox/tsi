@@ -16,121 +16,121 @@ export interface TsiWebAgreement {
     /**
      * Gets or sets the AccountNumber
      */
-    accountNumber?: number;
+    AccountNumber?: number;
     /**
      * Gets or sets the External Product
      */
-    externalProduct?: string;
+    ExternalProduct?: string;
     /**
      * Gets or sets the Start date
      */
-    startDate?: Date;
+    StartDate?: Date;
     /**
      * Gets or sets the End Date
      */
-    endDate?: Date;
+    EndDate?: Date;
     /**
      * Gets or sets the Type of agreement
      */
-    type?: string;
+    Type?: string;
     /**
      * Gets or sets the sales tax codes of the agreement
      */
-    salesTaxCode?: string;
+    SalesTaxCode?: string;
     /**
      * Gets or sets the Contact number
      */
-    contractNumber?: number;
+    ContractNumber?: number;
     /**
      * Gets or sets the Last Billed Date
      */
-    lastBilledDate?: Date;
+    LastBilledDate?: Date;
     /**
      * Gets or sets the Last Polled Date
      */
-    lastPolledDate?: Date;
+    LastPolledDate?: Date;
     /**
      * Gets or sets the InvoiceComments
      */
-    invoiceComments?: string;
+    InvoiceComments?: string;
     /**
      * Gets or sets the InvoiceDetailFormat
      */
-    invoiceDetailFormat?: boolean;
+    InvoiceDetailFormat?: boolean;
     /**
      * Gets or sets the MakeAllItemsTaxExempt
      */
-    makeAllItemsTaxExempt?: boolean;
+    MakeAllItemsTaxExempt?: boolean;
     /**
      * Gets or sets the ConsolidatedInvoice
      */
-    consolidatedInvoice?: boolean;
+    ConsolidatedInvoice?: boolean;
     /**
      * Gets or sets the EmailInvoiceFlag
      */
-    emailInvoiceFlag?: boolean;
+    EmailInvoiceFlag?: boolean;
     /**
      * Gets or sets the AutomatedBilling
      */
-    automatedBilling?: boolean;
+    AutomatedBilling?: boolean;
     /**
      * Gets or sets the BillingPeriod
      */
-    billingPeriod?: number;
+    BillingPeriod?: number;
     /**
      * Gets or sets the BillingPeriodDescription
      */
-    billingPeriodDescription?: string;
+    BillingPeriodDescription?: string;
     /**
      * Gets or sets the NextBillingPeriod
      */
-    nextBillingPeriod?: Date;
+    NextBillingPeriod?: Date;
     /**
      * Gets or sets the DayToBill
      */
-    dayToBill?: number;
+    DayToBill?: number;
     /**
      * Gets or sets the DayToProcessPayment
      */
-    dayToProcessPayment?: number;
+    DayToProcessPayment?: number;
     /**
      * Gets or sets the PayMethod
      */
-    payMethod?: number;
+    PayMethod?: number;
     /**
      * Gets or sets the PayMethodName
      */
-    payMethodName?: string;
+    PayMethodName?: string;
     /**
      * Gets or sets the MonthlyTotal
      */
-    monthlyTotal?: boolean;
+    MonthlyTotal?: boolean;
     /**
      * Gets or sets the FkPayMethods
      */
-    billedPeriodTotal?: boolean;
+    BilledPeriodTotal?: boolean;
     /**
      * Gets or sets the SummarizedInvoiceFormat
      */
-    summarizedInvoiceFormat?: boolean;
+    SummarizedInvoiceFormat?: boolean;
     /**
      * Gets or sets the FkPayMethods
      */
-    detailedInvoiceFormat?: boolean;
+    DetailedInvoiceFormat?: boolean;
     /**
      * Gets or sets the TotalPrice
      */
-    totalPrice?: number;
+    TotalPrice?: number;
     /**
      * Gets or sets the TotalCost
      */
-    totalCost?: number;
+    TotalCost?: number;
     /**
      * Gets or sets the DateCreated
      */
-    dateCreated?: Date;
+    DateCreated?: Date;
     /**
      * Gets or sets the AgreementBillTo
      */
-    agreementBillTo?: TsiWebAgreementBillTo;
+    AgreementBillTo?: TsiWebAgreementBillTo;
 }

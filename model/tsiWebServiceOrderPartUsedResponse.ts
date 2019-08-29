@@ -13,7 +13,7 @@ import { TsiWebServiceOrderPartUsed } from './tsiWebServiceOrderPartUsed';
 
 
 export interface TsiWebServiceOrderPartUsedResponse {
-    serviceOrderPartUsed?: TsiWebServiceOrderPartUsed;
-    success?: boolean;
-    message?: string;
+    ServiceOrderPartUsed?: TsiWebServiceOrderPartUsed;
+    Success?: boolean;
+    Message?: string;
 }

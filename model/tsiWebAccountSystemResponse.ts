@@ -13,7 +13,7 @@ import { TsiWebAccountSystem } from './tsiWebAccountSystem';
 
 
 export interface TsiWebAccountSystemResponse {
-    systems?: Array<TsiWebAccountSystem>;
-    success?: boolean;
-    message?: string;
+    Systems?: Array<TsiWebAccountSystem>;
+    Success?: boolean;
+    Message?: string;
 }

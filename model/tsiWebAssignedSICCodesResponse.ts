@@ -13,7 +13,7 @@ import { TsiWebAssignedSICCode } from './tsiWebAssignedSICCode';
 
 
 export interface TsiWebAssignedSICCodesResponse {
-    sICCodes?: Array<TsiWebAssignedSICCode>;
-    success?: boolean;
-    message?: string;
+    SICCodes?: Array<TsiWebAssignedSICCode>;
+    Success?: boolean;
+    Message?: string;
 }

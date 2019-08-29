@@ -12,6 +12,6 @@
 
 
 export interface TsiWebExpenseTypeModel {
-    expenseTypeDescription?: string;
-    isMileageExpense?: boolean;
+    ExpenseTypeDescription?: string;
+    IsMileageExpense?: boolean;
 }

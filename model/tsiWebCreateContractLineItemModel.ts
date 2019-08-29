@@ -12,22 +12,22 @@
 
 
 export interface TsiWebCreateContractLineItemModel {
-    serialNumber?: string;
-    itemID?: string;
-    itemDescription?: string;
-    priceBookNumber?: number;
-    quantity?: number;
-    contractItemType?: string;
-    reference?: string;
-    warrantyExpiration?: Date;
-    cancelDate?: Date;
-    contactName?: string;
-    contactPhoneNumber?: string;
-    startDate?: Date;
-    yearlyPrice?: number;
-    renewalListPercentage?: number;
-    renewalListPrice?: number;
-    customerInventoryNumber?: number;
-    contractPrice?: number;
-    serviceOrderPriority?: string;
+    SerialNumber?: string;
+    ItemID?: string;
+    ItemDescription?: string;
+    PriceBookNumber?: number;
+    Quantity?: number;
+    ContractItemType?: string;
+    Reference?: string;
+    WarrantyExpiration?: Date;
+    CancelDate?: Date;
+    ContactName?: string;
+    ContactPhoneNumber?: string;
+    StartDate?: Date;
+    YearlyPrice?: number;
+    RenewalListPercentage?: number;
+    RenewalListPrice?: number;
+    CustomerInventoryNumber?: number;
+    ContractPrice?: number;
+    ServiceOrderPriority?: string;
 }

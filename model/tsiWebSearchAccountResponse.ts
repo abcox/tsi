@@ -13,10 +13,10 @@ import { TsiWebAccountSummary } from './tsiWebAccountSummary';
 
 
 export interface TsiWebSearchAccountResponse {
-    accounts?: Array<TsiWebAccountSummary>;
-    pageSize?: number;
-    nextRow?: number;
-    totalCount?: number;
-    success?: boolean;
-    message?: string;
+    Accounts?: Array<TsiWebAccountSummary>;
+    PageSize?: number;
+    NextRow?: number;
+    TotalCount?: number;
+    Success?: boolean;
+    Message?: string;
 }

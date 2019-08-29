@@ -12,11 +12,11 @@
 
 
 export interface TsiWebAssetType {
-    assetTypeKeyNumber?: number;
-    mSPAssetType?: string;
-    specialItemID?: string;
-    defaultPriceLevel?: number;
-    priceLevelDescription?: string;
-    defaultFlatPrice?: number;
-    useFlatPriceDefault?: boolean;
+    AssetTypeKeyNumber?: number;
+    MSPAssetType?: string;
+    SpecialItemID?: string;
+    DefaultPriceLevel?: number;
+    PriceLevelDescription?: string;
+    DefaultFlatPrice?: number;
+    UseFlatPriceDefault?: boolean;
 }

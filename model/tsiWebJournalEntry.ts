@@ -12,15 +12,15 @@
 
 
 export interface TsiWebJournalEntry {
-    journalEntryId?: number;
-    accountNumber?: number;
-    contactNumber?: number;
-    repNumber?: number;
-    topic?: string;
-    action?: string;
-    note?: string;
-    dateCreated?: Date;
-    startTime?: Date;
-    endTime?: Date;
-    isSystemEntry?: boolean;
+    JournalEntryId?: number;
+    AccountNumber?: number;
+    ContactNumber?: number;
+    RepNumber?: number;
+    Topic?: string;
+    Action?: string;
+    Note?: string;
+    DateCreated?: Date;
+    StartTime?: Date;
+    EndTime?: Date;
+    IsSystemEntry?: boolean;
 }

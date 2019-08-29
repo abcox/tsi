@@ -12,6 +12,6 @@
 
 
 export interface TsiWebResponse {
-    success?: boolean;
-    message?: string;
+    Success?: boolean;
+    Message?: string;
 }

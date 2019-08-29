@@ -12,9 +12,9 @@
 
 
 export interface TsiWebServiceOrderQuote {
-    quoteNumber?: number;
-    description?: string;
-    repNumber?: number;
-    repName?: string;
-    isChangeOrder?: boolean;
+    QuoteNumber?: number;
+    Description?: string;
+    RepNumber?: number;
+    RepName?: string;
+    IsChangeOrder?: boolean;
 }

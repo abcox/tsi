@@ -14,19 +14,19 @@ import { TsiWebRepPreferences } from './tsiWebRepPreferences';
 
 
 export interface TsiWebRepDetail {
-    repNumber?: number;
-    personalAccountNumber?: number;
-    address?: TsiWebAddress;
-    homePhone?: string;
-    mobilePhone?: string;
-    status?: string;
-    inactive?: boolean;
-    repPreferences?: TsiWebRepPreferences;
-    firstName?: string;
-    lastName?: string;
-    phoneNumber?: string;
-    emailAddress?: string;
-    title?: string;
-    displayName?: string;
-    searchName?: string;
+    RepNumber?: number;
+    PersonalAccountNumber?: number;
+    Address?: TsiWebAddress;
+    HomePhone?: string;
+    MobilePhone?: string;
+    Status?: string;
+    Inactive?: boolean;
+    RepPreferences?: TsiWebRepPreferences;
+    FirstName?: string;
+    LastName?: string;
+    PhoneNumber?: string;
+    EmailAddress?: string;
+    Title?: string;
+    DisplayName?: string;
+    SearchName?: string;
 }

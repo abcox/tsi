@@ -13,7 +13,7 @@ import { TsiWebAssignedMarketingProfile } from './tsiWebAssignedMarketingProfile
 
 
 export interface TsiWebAssignedMarketingProfilesResponse {
-    marketingProfiles?: Array<TsiWebAssignedMarketingProfile>;
-    success?: boolean;
-    message?: string;
+    MarketingProfiles?: Array<TsiWebAssignedMarketingProfile>;
+    Success?: boolean;
+    Message?: string;
 }

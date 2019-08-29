@@ -12,9 +12,9 @@
 
 
 export interface TsiWebServiceOrderAssignedTech {
-    serviceOrderAssignedTechNumber?: number;
-    repNumber?: number;
-    repName?: string;
-    dateAssigned?: Date;
-    primaryIndicator?: boolean;
+    ServiceOrderAssignedTechNumber?: number;
+    RepNumber?: number;
+    RepName?: string;
+    DateAssigned?: Date;
+    PrimaryIndicator?: boolean;
 }

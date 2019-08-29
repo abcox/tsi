@@ -13,7 +13,7 @@ import { TsiWebExpenseType } from './tsiWebExpenseType';
 
 
 export interface TsiWebExpenseTypesResponse {
-    expenseTypes?: Array<TsiWebExpenseType>;
-    success?: boolean;
-    message?: string;
+    ExpenseTypes?: Array<TsiWebExpenseType>;
+    Success?: boolean;
+    Message?: string;
 }

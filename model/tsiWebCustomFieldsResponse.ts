@@ -13,7 +13,7 @@ import { TsiWebCustomField } from './tsiWebCustomField';
 
 
 export interface TsiWebCustomFieldsResponse {
-    fields?: Array<TsiWebCustomField>;
-    success?: boolean;
-    message?: string;
+    Fields?: Array<TsiWebCustomField>;
+    Success?: boolean;
+    Message?: string;
 }

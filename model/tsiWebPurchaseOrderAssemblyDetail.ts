@@ -12,14 +12,14 @@
 
 
 export interface TsiWebPurchaseOrderAssemblyDetail {
-    purchaseOrderAssemblyDetailNumber?: number;
-    itemDescription?: string;
-    itemId?: string;
-    quantityOnAssembly?: number;
-    projectedCost?: number;
-    totalProjectedCost?: number;
-    actualCost?: number;
-    gLCode?: string;
-    type?: string;
-    serialNumbers?: number;
+    PurchaseOrderAssemblyDetailNumber?: number;
+    ItemDescription?: string;
+    ItemId?: string;
+    QuantityOnAssembly?: number;
+    ProjectedCost?: number;
+    TotalProjectedCost?: number;
+    ActualCost?: number;
+    GLCode?: string;
+    Type?: string;
+    SerialNumbers?: number;
 }

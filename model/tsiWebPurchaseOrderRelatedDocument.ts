@@ -12,17 +12,17 @@
 
 
 export interface TsiWebPurchaseOrderRelatedDocument {
-    documentNumber?: number;
-    purchaseOrderRelatedOrderType?: string;
-    purchaseOrderLineItemNumber?: number;
-    documentItemNumber?: number;
-    description?: string;
-    status?: string;
-    itemId?: string;
-    quantityOrdered?: number;
-    quantityRecieved?: number;
-    quantityCancelled?: number;
-    projectNumber?: number;
-    projectDescription?: string;
-    projectStatus?: string;
+    DocumentNumber?: number;
+    PurchaseOrderRelatedOrderType?: string;
+    PurchaseOrderLineItemNumber?: number;
+    DocumentItemNumber?: number;
+    Description?: string;
+    Status?: string;
+    ItemId?: string;
+    QuantityOrdered?: number;
+    QuantityRecieved?: number;
+    QuantityCancelled?: number;
+    ProjectNumber?: number;
+    ProjectDescription?: string;
+    ProjectStatus?: string;
 }

@@ -12,6 +12,6 @@
 
 
 export interface TsiWebAccountSystem {
-    system?: string;
-    _default?: boolean;
+    System?: string;
+    _Default?: boolean;
 }

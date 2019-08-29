@@ -12,16 +12,16 @@
 
 
 export interface TsiWebUpdateTimeSlipModel {
-    billingOption?: string;
-    logReason?: string;
-    techAssigned?: number;
-    logComment?: string;
-    startDateTime?: Date;
-    endDateTime?: Date;
-    internalComments?: string;
-    deductHours?: number;
-    deductMinutes?: number;
-    creditUtilizationTime?: boolean;
-    acceptanceStatus?: string;
-    rejectedReasonStatus?: string;
+    BillingOption?: string;
+    LogReason?: string;
+    TechAssigned?: number;
+    LogComment?: string;
+    StartDateTime?: Date;
+    EndDateTime?: Date;
+    InternalComments?: string;
+    DeductHours?: number;
+    DeductMinutes?: number;
+    CreditUtilizationTime?: boolean;
+    AcceptanceStatus?: string;
+    RejectedReasonStatus?: string;
 }

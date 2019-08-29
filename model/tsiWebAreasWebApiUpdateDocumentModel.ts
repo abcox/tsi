@@ -12,9 +12,9 @@
 
 
 export interface TsiWebAreasWebApiUpdateDocumentModel {
-    title: string;
-    topic: string;
-    description?: string;
-    displayInPortal?: boolean;
-    contactNumber?: number;
+    Title: string;
+    Topic: string;
+    Description?: string;
+    DisplayInPortal?: boolean;
+    ContactNumber?: number;
 }

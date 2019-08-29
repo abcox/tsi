@@ -13,12 +13,12 @@ import { TsiWebPriceBookItem } from './tsiWebPriceBookItem';
 
 
 export interface TsiWebAssemblyDetail {
-    assemblyDetailNumber?: number;
-    item?: TsiWebPriceBookItem;
-    type?: string;
-    lineNumber?: number;
-    priceBookNumber?: number;
-    itemId?: string;
-    quantity?: number;
-    printOnQuote?: boolean;
+    AssemblyDetailNumber?: number;
+    Item?: TsiWebPriceBookItem;
+    Type?: string;
+    LineNumber?: number;
+    PriceBookNumber?: number;
+    ItemId?: string;
+    Quantity?: number;
+    PrintOnQuote?: boolean;
 }

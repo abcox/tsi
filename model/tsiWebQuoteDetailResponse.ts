@@ -13,7 +13,7 @@ import { TsiWebQuoteDetailItem } from './tsiWebQuoteDetailItem';
 
 
 export interface TsiWebQuoteDetailResponse {
-    details?: Array<TsiWebQuoteDetailItem>;
-    success?: boolean;
-    message?: string;
+    Details?: Array<TsiWebQuoteDetailItem>;
+    Success?: boolean;
+    Message?: string;
 }

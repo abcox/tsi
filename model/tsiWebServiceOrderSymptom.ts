@@ -12,6 +12,6 @@
 
 
 export interface TsiWebServiceOrderSymptom {
-    symptom?: string;
-    index?: number;
+    Symptom?: string;
+    Index?: number;
 }

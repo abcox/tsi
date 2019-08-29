@@ -12,5 +12,5 @@
 
 
 export interface TsiWebRepPreferences {
-    defaultTimeLogReason?: string;
+    DefaultTimeLogReason?: string;
 }

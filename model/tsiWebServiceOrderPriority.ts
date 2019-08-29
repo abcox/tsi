@@ -12,12 +12,12 @@
 
 
 export interface TsiWebServiceOrderPriority {
-    priority?: string;
-    responseTime?: number;
-    rank?: number;
-    warningThreshold?: number;
-    reportingPeriod?: number;
-    color?: number;
-    systemDefault?: boolean;
-    aroundTheClockResponse?: boolean;
+    Priority?: string;
+    ResponseTime?: number;
+    Rank?: number;
+    WarningThreshold?: number;
+    ReportingPeriod?: number;
+    Color?: number;
+    SystemDefault?: boolean;
+    AroundTheClockResponse?: boolean;
 }

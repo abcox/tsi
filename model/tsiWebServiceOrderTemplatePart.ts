@@ -13,19 +13,19 @@ import { TsiWebServiceOrderTemplatePartAssemblyDetail } from './tsiWebServiceOrd
 
 
 export interface TsiWebServiceOrderTemplatePart {
-    serviceOrderTemplatePartNumber?: number;
-    sequenceNumber?: number;
-    itemID?: string;
-    itemDescription?: string;
-    quantity?: number;
-    pricingMethod?: string;
-    fixedPrice?: number;
-    priceLevel?: number;
-    priceLevelDescription?: string;
-    type?: string;
-    assemblyType?: string;
-    commentOnly?: boolean;
-    itemNotes?: string;
-    printOnInvoice?: boolean;
-    serviceOrderTemplatePartAssemblyDetails?: Array<TsiWebServiceOrderTemplatePartAssemblyDetail>;
+    ServiceOrderTemplatePartNumber?: number;
+    SequenceNumber?: number;
+    ItemID?: string;
+    ItemDescription?: string;
+    Quantity?: number;
+    PricingMethod?: string;
+    FixedPrice?: number;
+    PriceLevel?: number;
+    PriceLevelDescription?: string;
+    Type?: string;
+    AssemblyType?: string;
+    CommentOnly?: boolean;
+    ItemNotes?: string;
+    PrintOnInvoice?: boolean;
+    ServiceOrderTemplatePartAssemblyDetails?: Array<TsiWebServiceOrderTemplatePartAssemblyDetail>;
 }

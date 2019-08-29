@@ -13,22 +13,22 @@ import { SystemNullableTsiWebOptionalDateTime } from './systemNullableTsiWebOpti
 
 
 export interface TsiWebUpdateServiceOrderNonStockPartsUsedModel {
-    lineNumber?: number;
-    itemDescription?: string;
-    taxable?: boolean;
-    subjectToProviderTax?: boolean;
-    isSerialized?: boolean;
-    printOnInvoice?: boolean;
-    underContract?: boolean;
-    sellingPrice?: number;
-    cost?: number;
-    useThisCostWhenOrdering?: boolean;
-    quantity?: number;
-    serviceOrderItemsServicedNumber?: number;
-    memo?: string;
-    orderByDate?: SystemNullableTsiWebOptionalDateTime;
-    projectPhaseNumber?: number;
-    installLocation?: string;
-    allowPriceLessThanCost?: boolean;
-    allowQuantityLessThanOrdered?: boolean;
+    LineNumber?: number;
+    ItemDescription?: string;
+    Taxable?: boolean;
+    SubjectToProviderTax?: boolean;
+    IsSerialized?: boolean;
+    PrintOnInvoice?: boolean;
+    UnderContract?: boolean;
+    SellingPrice?: number;
+    Cost?: number;
+    UseThisCostWhenOrdering?: boolean;
+    Quantity?: number;
+    ServiceOrderItemsServicedNumber?: number;
+    Memo?: string;
+    OrderByDate?: SystemNullableTsiWebOptionalDateTime;
+    ProjectPhaseNumber?: number;
+    InstallLocation?: string;
+    AllowPriceLessThanCost?: boolean;
+    AllowQuantityLessThanOrdered?: boolean;
 }

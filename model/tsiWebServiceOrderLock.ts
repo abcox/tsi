@@ -12,6 +12,6 @@
 
 
 export interface TsiWebServiceOrderLock {
-    lockingRepNumber?: number;
-    lockingRepName?: string;
+    LockingRepNumber?: number;
+    LockingRepName?: string;
 }

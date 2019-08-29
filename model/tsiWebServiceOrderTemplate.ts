@@ -15,25 +15,25 @@ import { TsiWebServiceOrderTemplateTimeLog } from './tsiWebServiceOrderTemplateT
 
 
 export interface TsiWebServiceOrderTemplate {
-    templateId?: number;
-    templateName?: string;
-    briefDescription?: string;
-    dispatchBoardNumber?: number;
-    technicianAssigned?: number;
-    technicianAssignedName?: string;
-    associatedTechsGroup?: string;
-    status?: string;
-    serviceOrderType?: string;
-    priority?: string;
-    estimatedHours?: number;
-    estimatedMinutes?: number;
-    workRequested?: string;
-    workPerformed?: string;
-    internalComments?: string;
-    useDefaultContract?: boolean;
-    contactProfile?: string;
-    useContractPriority?: boolean;
-    templateTasks?: Array<TsiWebServiceOrderTemplateTask>;
-    templateParts?: Array<TsiWebServiceOrderTemplatePart>;
-    templateTimeLogs?: Array<TsiWebServiceOrderTemplateTimeLog>;
+    TemplateId?: number;
+    TemplateName?: string;
+    BriefDescription?: string;
+    DispatchBoardNumber?: number;
+    TechnicianAssigned?: number;
+    TechnicianAssignedName?: string;
+    AssociatedTechsGroup?: string;
+    Status?: string;
+    ServiceOrderType?: string;
+    Priority?: string;
+    EstimatedHours?: number;
+    EstimatedMinutes?: number;
+    WorkRequested?: string;
+    WorkPerformed?: string;
+    InternalComments?: string;
+    UseDefaultContract?: boolean;
+    ContactProfile?: string;
+    UseContractPriority?: boolean;
+    TemplateTasks?: Array<TsiWebServiceOrderTemplateTask>;
+    TemplateParts?: Array<TsiWebServiceOrderTemplatePart>;
+    TemplateTimeLogs?: Array<TsiWebServiceOrderTemplateTimeLog>;
 }

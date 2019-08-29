@@ -12,6 +12,6 @@
 
 
 export interface TsiWebAssignedMarketingProfile {
-    profile?: string;
-    lastModified?: Date;
+    Profile?: string;
+    LastModified?: Date;
 }

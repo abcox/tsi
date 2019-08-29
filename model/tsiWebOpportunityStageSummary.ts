@@ -12,11 +12,11 @@
 
 
 export interface TsiWebOpportunityStageSummary {
-    forwardActivityName?: string;
-    backwardActivityName?: string;
-    stageDescription?: string;
-    description?: string;
-    probabilityOfSale?: number;
-    daysToClose?: number;
-    ageThresholdForWorkflow?: number;
+    ForwardActivityName?: string;
+    BackwardActivityName?: string;
+    StageDescription?: string;
+    Description?: string;
+    ProbabilityOfSale?: number;
+    DaysToClose?: number;
+    AgeThresholdForWorkflow?: number;
 }

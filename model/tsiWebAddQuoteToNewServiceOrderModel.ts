@@ -14,18 +14,18 @@ import { TsiWebConversionItem } from './tsiWebConversionItem';
 
 
 export interface TsiWebAddQuoteToNewServiceOrderModel {
-    quoteToSOType: string;
-    projectNumber?: number;
-    contractNumber?: number;
-    briefDescription?: string;
-    dateTimeRequested?: SystemNullableTsiWebSplitDateTime;
-    newServiceOrderPhaseNumber?: number;
-    type?: string;
-    status?: string;
-    technicianAssigned?: number;
-    itemsToConvert?: Array<TsiWebConversionItem>;
-    projectPhaseNumber?: number;
-    allowInactiveContract?: boolean;
-    allowFutureContract?: boolean;
-    allowContractNoRemaining?: boolean;
+    QuoteToSOType: string;
+    ProjectNumber?: number;
+    ContractNumber?: number;
+    BriefDescription?: string;
+    DateTimeRequested?: SystemNullableTsiWebSplitDateTime;
+    NewServiceOrderPhaseNumber?: number;
+    Type?: string;
+    Status?: string;
+    TechnicianAssigned?: number;
+    ItemsToConvert?: Array<TsiWebConversionItem>;
+    ProjectPhaseNumber?: number;
+    AllowInactiveContract?: boolean;
+    AllowFutureContract?: boolean;
+    AllowContractNoRemaining?: boolean;
 }

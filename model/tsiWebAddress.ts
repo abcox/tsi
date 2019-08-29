@@ -12,10 +12,10 @@
 
 
 export interface TsiWebAddress {
-    address1?: string;
-    address2?: string;
-    city?: string;
-    state?: string;
-    postalCode?: string;
-    country?: string;
+    Address1?: string;
+    Address2?: string;
+    City?: string;
+    State?: string;
+    PostalCode?: string;
+    Country?: string;
 }

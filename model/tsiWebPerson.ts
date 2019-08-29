@@ -12,11 +12,11 @@
 
 
 export interface TsiWebPerson {
-    firstName?: string;
-    lastName?: string;
-    phoneNumber?: string;
-    emailAddress?: string;
-    title?: string;
-    displayName?: string;
-    searchName?: string;
+    FirstName?: string;
+    LastName?: string;
+    PhoneNumber?: string;
+    EmailAddress?: string;
+    Title?: string;
+    DisplayName?: string;
+    SearchName?: string;
 }

@@ -15,67 +15,67 @@ export interface TsiWebAccountManagedAsset {
     /**
      * Gets or sets AssetId
      */
-    managedAssetNumber?: number;
+    ManagedAssetNumber?: number;
     /**
      * Gets or sets the account number
      */
-    accountNumber?: number;
+    AccountNumber?: number;
     /**
      * Gets or sets Provider
      */
-    provider?: string;
+    Provider?: string;
     /**
      * Gets or sets AssetType
      */
-    assetType?: string;
+    AssetType?: string;
     /**
      * Gets or sets ProviderAssetName
      */
-    providerAssetName?: string;
+    ProviderAssetName?: string;
     /**
      * Gets or sets ProviderAssetId
      */
-    providerAssetId?: string;
+    ProviderAssetId?: string;
     /**
      * Gets or sets the Price
      */
-    price?: number;
+    Price?: number;
     /**
      * Gets or sets the PriceLevel
      */
-    priceLevel?: number;
+    PriceLevel?: number;
     /**
      * Gets or sets the PriceLevelDescription
      */
-    priceLevelDescription?: string;
+    PriceLevelDescription?: string;
     /**
      * Gets or sets the ExternalId
      */
-    externalId?: string;
+    ExternalId?: string;
     /**
      * Gets or sets the DateAdded
      */
-    dateAdded?: Date;
+    DateAdded?: Date;
     /**
      * Gets or sets the DeviceURL
      */
-    deviceURL?: string;
+    DeviceURL?: string;
     /**
      * Gets or sets the LastPolledDate
      */
-    lastPolledDate?: Date;
+    LastPolledDate?: Date;
     /**
      * Gets or sets the DateRemoved
      */
-    dateRemoved?: Date;
+    DateRemoved?: Date;
     /**
      * Gets or sets the IPAdress
      */
-    iPAddress?: string;
+    IPAddress?: string;
     /**
      * Gets or sets the MacAddress
      */
-    mACAddress?: string;
+    MACAddress?: string;
     /**
      * Gets or sets the OS
      */
@@ -83,15 +83,15 @@ export interface TsiWebAccountManagedAsset {
     /**
      * Gets or sets the SerialNumber
      */
-    serialNumber?: string;
+    SerialNumber?: string;
     /**
      * Gets or sets the Description
      */
-    description?: string;
+    Description?: string;
     /**
      * Gets or sets the last ogged-in user
      */
-    lastLoggedInUser?: string;
+    LastLoggedInUser?: string;
     /**
      * Gets or sets the CPU
      */
@@ -99,13 +99,13 @@ export interface TsiWebAccountManagedAsset {
     /**
      * Gets or sets the Memory
      */
-    memory?: string;
+    Memory?: string;
     /**
      * Gets or sets the Hard drive space
      */
-    hardDriveSpace?: string;
+    HardDriveSpace?: string;
     /**
      * Gets or sets UseFlatPrice
      */
-    useFlatPrice?: boolean;
+    UseFlatPrice?: boolean;
 }

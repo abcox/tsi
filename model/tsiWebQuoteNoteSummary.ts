@@ -13,13 +13,13 @@ import { TsiWebPerson } from './tsiWebPerson';
 
 
 export interface TsiWebQuoteNoteSummary {
-    contact?: TsiWebPerson;
-    rep?: TsiWebPerson;
-    quoteNoteNumber?: number;
-    contactNumber?: number;
-    repNumber?: number;
-    topic?: string;
-    note?: string;
-    dateCreated?: Date;
-    noteDate?: Date;
+    Contact?: TsiWebPerson;
+    Rep?: TsiWebPerson;
+    QuoteNoteNumber?: number;
+    ContactNumber?: number;
+    RepNumber?: number;
+    Topic?: string;
+    Note?: string;
+    DateCreated?: Date;
+    NoteDate?: Date;
 }

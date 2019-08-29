@@ -13,6 +13,6 @@ import { TsiWebVendorItem } from './tsiWebVendorItem';
 
 
 export interface TsiWebPuchaseOrderVendorItem {
-    vendorAccountNumber?: number;
-    items?: Array<TsiWebVendorItem>;
+    VendorAccountNumber?: number;
+    Items?: Array<TsiWebVendorItem>;
 }

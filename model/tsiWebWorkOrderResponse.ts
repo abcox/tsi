@@ -13,7 +13,7 @@ import { TsiWebWorkOrderSummary } from './tsiWebWorkOrderSummary';
 
 
 export interface TsiWebWorkOrderResponse {
-    workOrder?: TsiWebWorkOrderSummary;
-    success?: boolean;
-    message?: string;
+    WorkOrder?: TsiWebWorkOrderSummary;
+    Success?: boolean;
+    Message?: string;
 }

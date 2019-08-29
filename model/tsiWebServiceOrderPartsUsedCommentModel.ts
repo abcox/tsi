@@ -12,7 +12,7 @@
 
 
 export interface TsiWebServiceOrderPartsUsedCommentModel {
-    comment: string;
-    printOnInvoice?: boolean;
-    lineNumber?: number;
+    Comment: string;
+    PrintOnInvoice?: boolean;
+    LineNumber?: number;
 }

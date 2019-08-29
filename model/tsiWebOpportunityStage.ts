@@ -12,12 +12,12 @@
 
 
 export interface TsiWebOpportunityStage {
-    opportunityStageId?: number;
-    forwardActivityName?: string;
-    backwardActivityName?: string;
-    stageDescription?: string;
-    description?: string;
-    probabilityOfSale?: number;
-    daysToClose?: number;
-    ageThresholdForWorkflow?: number;
+    OpportunityStageId?: number;
+    ForwardActivityName?: string;
+    BackwardActivityName?: string;
+    StageDescription?: string;
+    Description?: string;
+    ProbabilityOfSale?: number;
+    DaysToClose?: number;
+    AgeThresholdForWorkflow?: number;
 }

@@ -15,129 +15,129 @@ export interface TsiWebPartAndLabor {
     /**
      * Gets or sets the AccountNumber
      */
-    accountNumber?: number;
+    AccountNumber?: number;
     /**
      * Gets or sets the SOPartsUsedKeyID
      */
-    sOPartsUsedNumber?: number;
+    SOPartsUsedNumber?: number;
     /**
      * Gets or sets the SONumber
      */
-    serviceOrderNumber?: number;
+    ServiceOrderNumber?: number;
     /**
      * Gets or sets the ItemID
      */
-    itemID?: string;
+    ItemID?: string;
     /**
      * Gets or sets the Description
      */
-    partsDescription?: string;
+    PartsDescription?: string;
     /**
      * Gets or sets the Quantity
      */
-    quantity?: number;
+    Quantity?: number;
     /**
      * Gets or sets the SellingPrice
      */
-    sellingPrice?: number;
+    SellingPrice?: number;
     /**
      * Gets or sets the TotalSellingPrice
      */
-    totalSellingPrice?: number;
+    TotalSellingPrice?: number;
     /**
      * Gets or sets the QuantityOrdered
      */
-    quantityOrdered?: number;
+    QuantityOrdered?: number;
     /**
      * Gets or sets the QuantityReceived
      */
-    quantityReceived?: number;
+    QuantityReceived?: number;
     /**
      * Gets or sets the QuantityFilled
      */
-    quantityFilled?: number;
+    QuantityFilled?: number;
     /**
      * Gets or sets the QuantityInvoiced
      */
-    quantityInvoiced?: number;
+    QuantityInvoiced?: number;
     /**
      * Gets or sets the QuantityPosted
      */
-    quantityPosted?: number;
+    QuantityPosted?: number;
     /**
      * Gets or sets the QuantityShipped
      */
-    quantityShipped?: number;
+    QuantityShipped?: number;
     /**
      * Gets or sets the Exchange
      */
-    exchange?: boolean;
+    Exchange?: boolean;
     /**
      * Gets or sets the UnderContract
      */
-    underContract?: boolean;
+    UnderContract?: boolean;
     /**
      * Gets or sets the Taxed
      */
-    taxed?: boolean;
+    Taxed?: boolean;
     /**
      * Gets or sets the ProviderTaxed
      */
-    providerTaxed?: boolean;
+    ProviderTaxed?: boolean;
     /**
      * Gets or sets the CostGLCode
      */
-    costGLCode?: string;
+    CostGLCode?: string;
     /**
      * Gets or sets the IncomeGLCode
      */
-    incomeGLCode?: string;
+    IncomeGLCode?: string;
     /**
      * Gets or sets the Notes
      */
-    notes?: string;
+    Notes?: string;
     /**
      * Gets or sets the Item Type
      */
-    itemType?: string;
+    ItemType?: string;
     /**
      * Gets or sets the Item Assembly type, if the Item is of type assembly
      */
-    assemblyType?: string;
+    AssemblyType?: string;
     /**
      * Gets or sets the Cost
      */
-    cost?: number;
+    Cost?: number;
     /**
      * Gets or sets the PrintOnInvoice
      */
-    printOnInvoice?: boolean;
+    PrintOnInvoice?: boolean;
     /**
      * Gets or sets the PartNumber
      */
-    partNumber?: string;
+    PartNumber?: string;
     /**
      * Gets or sets the Order By Date
      */
-    orderByDate?: Date;
+    OrderByDate?: Date;
     /**
      * Gets or sets the Is RepairLevel
      */
-    isRepairLevel?: boolean;
+    IsRepairLevel?: boolean;
     /**
      * Gets or sets the Item Serviced
      */
-    itemServiced?: string;
+    ItemServiced?: string;
     /**
      * Gets or sets the Project Phase
      */
-    projectPhase?: string;
+    ProjectPhase?: string;
     /**
      * Gets or sets the Install Location
      */
-    installLocation?: string;
+    InstallLocation?: string;
     /**
      * Gets or sets the PriceLevel
      */
-    priceLevel?: number;
+    PriceLevel?: number;
 }

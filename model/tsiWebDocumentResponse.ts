@@ -13,7 +13,7 @@ import { TsiWebDocumentSummary } from './tsiWebDocumentSummary';
 
 
 export interface TsiWebDocumentResponse {
-    document?: TsiWebDocumentSummary;
-    success?: boolean;
-    message?: string;
+    Document?: TsiWebDocumentSummary;
+    Success?: boolean;
+    Message?: string;
 }

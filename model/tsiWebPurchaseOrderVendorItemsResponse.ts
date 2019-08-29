@@ -13,7 +13,7 @@ import { TsiWebPuchaseOrderVendorItem } from './tsiWebPuchaseOrderVendorItem';
 
 
 export interface TsiWebPurchaseOrderVendorItemsResponse {
-    purchaseOrderVendorItems?: Array<TsiWebPuchaseOrderVendorItem>;
-    success?: boolean;
-    message?: string;
+    PurchaseOrderVendorItems?: Array<TsiWebPuchaseOrderVendorItem>;
+    Success?: boolean;
+    Message?: string;
 }

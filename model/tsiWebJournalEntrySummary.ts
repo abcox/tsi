@@ -14,10 +14,10 @@ import { TsiWebPerson } from './tsiWebPerson';
 
 
 export interface TsiWebJournalEntrySummary {
-    journalEntry?: TsiWebJournalEntry;
-    accountName?: string;
-    phoneNumber?: string;
-    faxNumber?: string;
-    contact?: TsiWebPerson;
-    rep?: TsiWebPerson;
+    JournalEntry?: TsiWebJournalEntry;
+    AccountName?: string;
+    PhoneNumber?: string;
+    FaxNumber?: string;
+    Contact?: TsiWebPerson;
+    Rep?: TsiWebPerson;
 }

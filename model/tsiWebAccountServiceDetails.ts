@@ -16,9 +16,9 @@ import { TsiWebCoManagedTechnician } from './tsiWebCoManagedTechnician';
 
 
 export interface TsiWebAccountServiceDetails {
-    accountNumber?: number;
-    detail?: TsiWebAccountServiceDetail;
-    externalProducts?: Array<TsiWebAccountExternalProduct>;
-    systems?: Array<TsiWebAccountSystem>;
-    coManagedTechnicians?: Array<TsiWebCoManagedTechnician>;
+    AccountNumber?: number;
+    Detail?: TsiWebAccountServiceDetail;
+    ExternalProducts?: Array<TsiWebAccountExternalProduct>;
+    Systems?: Array<TsiWebAccountSystem>;
+    CoManagedTechnicians?: Array<TsiWebCoManagedTechnician>;
 }

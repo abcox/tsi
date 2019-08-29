@@ -12,6 +12,6 @@
 
 
 export interface TsiWebConversionItem {
-    detailItemNumber?: number;
-    quantity?: number;
+    DetailItemNumber?: number;
+    Quantity?: number;
 }

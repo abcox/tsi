@@ -13,7 +13,7 @@ import { TsiWebTimeEntryReason } from './tsiWebTimeEntryReason';
 
 
 export interface TsiWebTimeEntryReasonResponse {
-    timeEntryReasons?: Array<TsiWebTimeEntryReason>;
-    success?: boolean;
-    message?: string;
+    TimeEntryReasons?: Array<TsiWebTimeEntryReason>;
+    Success?: boolean;
+    Message?: string;
 }

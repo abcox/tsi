@@ -13,10 +13,10 @@ import { TsiWebServiceOrderExpense } from './tsiWebServiceOrderExpense';
 
 
 export interface TsiWebServiceOrderExpensesResponse {
-    expenses?: Array<TsiWebServiceOrderExpense>;
-    pageSize?: number;
-    nextRow?: number;
-    totalCount?: number;
-    success?: boolean;
-    message?: string;
+    Expenses?: Array<TsiWebServiceOrderExpense>;
+    PageSize?: number;
+    NextRow?: number;
+    TotalCount?: number;
+    Success?: boolean;
+    Message?: string;
 }

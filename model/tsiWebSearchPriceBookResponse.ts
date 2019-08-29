@@ -13,10 +13,10 @@ import { TsiWebPriceBookItemSummary } from './tsiWebPriceBookItemSummary';
 
 
 export interface TsiWebSearchPriceBookResponse {
-    priceBookItems?: Array<TsiWebPriceBookItemSummary>;
-    pageSize?: number;
-    nextRow?: number;
-    totalCount?: number;
-    success?: boolean;
-    message?: string;
+    PriceBookItems?: Array<TsiWebPriceBookItemSummary>;
+    PageSize?: number;
+    NextRow?: number;
+    TotalCount?: number;
+    Success?: boolean;
+    Message?: string;
 }

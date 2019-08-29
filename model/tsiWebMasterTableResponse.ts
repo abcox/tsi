@@ -13,7 +13,7 @@ import { TsiWebMasterTableEntry } from './tsiWebMasterTableEntry';
 
 
 export interface TsiWebMasterTableResponse {
-    entries?: Array<TsiWebMasterTableEntry>;
-    success?: boolean;
-    message?: string;
+    Entries?: Array<TsiWebMasterTableEntry>;
+    Success?: boolean;
+    Message?: string;
 }

@@ -13,20 +13,20 @@ import { TsiWebTask } from './tsiWebTask';
 
 
 export interface TsiWebTaskSummary {
-    taskNumber?: number;
-    task?: TsiWebTask;
-    accountName?: string;
-    phoneNumber?: string;
-    faxNumber?: string;
-    contactName?: string;
-    contactEmailAddress?: string;
-    contactPhoneNumber?: string;
-    scheduledForRepName?: string;
-    scheduledByRepName?: string;
-    projectName?: string;
-    projectPhase?: string;
-    projectSubPhase?: string;
-    serviceOrderDescription?: string;
-    quoteDescription?: string;
-    opportunityName?: string;
+    TaskNumber?: number;
+    Task?: TsiWebTask;
+    AccountName?: string;
+    PhoneNumber?: string;
+    FaxNumber?: string;
+    ContactName?: string;
+    ContactEmailAddress?: string;
+    ContactPhoneNumber?: string;
+    ScheduledForRepName?: string;
+    ScheduledByRepName?: string;
+    ProjectName?: string;
+    ProjectPhase?: string;
+    ProjectSubPhase?: string;
+    ServiceOrderDescription?: string;
+    QuoteDescription?: string;
+    OpportunityName?: string;
 }

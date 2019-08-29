@@ -13,12 +13,12 @@ import { SystemNullableTsiWebOptionalDateTime } from './systemNullableTsiWebOpti
 
 
 export interface TsiWebQuoteAssemblyDetailAdjustment {
-    itemId?: string;
-    quantity?: number;
-    adjustedSellingPrice?: number;
-    estimatedCost?: number;
-    orderByDate?: SystemNullableTsiWebOptionalDateTime;
-    useThisCostWhenOrdering?: boolean;
-    printOnInvoice?: boolean;
-    printOnQuote?: boolean;
+    ItemId?: string;
+    Quantity?: number;
+    AdjustedSellingPrice?: number;
+    EstimatedCost?: number;
+    OrderByDate?: SystemNullableTsiWebOptionalDateTime;
+    UseThisCostWhenOrdering?: boolean;
+    PrintOnInvoice?: boolean;
+    PrintOnQuote?: boolean;
 }

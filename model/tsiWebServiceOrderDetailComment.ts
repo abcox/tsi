@@ -12,7 +12,7 @@
 
 
 export interface TsiWebServiceOrderDetailComment {
-    serviceOrderDetailCommentId?: number;
-    comment?: string;
-    printCommentOnInvoice?: boolean;
+    ServiceOrderDetailCommentId?: number;
+    Comment?: string;
+    PrintCommentOnInvoice?: boolean;
 }

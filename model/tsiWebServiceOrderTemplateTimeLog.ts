@@ -12,17 +12,17 @@
 
 
 export interface TsiWebServiceOrderTemplateTimeLog {
-    serviceOrderTemplateTimeLogNumber?: number;
-    repType?: number;
-    repTypeDescription?: string;
-    repNumber?: number;
-    repName?: string;
-    startTime?: Date;
-    offSetInterval?: number;
-    offSetIntervalDescription?: string;
-    offSetTime?: number;
-    logHours?: number;
-    logMinutes?: number;
-    comments?: string;
-    logReason?: string;
+    ServiceOrderTemplateTimeLogNumber?: number;
+    RepType?: number;
+    RepTypeDescription?: string;
+    RepNumber?: number;
+    RepName?: string;
+    StartTime?: Date;
+    OffSetInterval?: number;
+    OffSetIntervalDescription?: string;
+    OffSetTime?: number;
+    LogHours?: number;
+    LogMinutes?: number;
+    Comments?: string;
+    LogReason?: string;
 }

@@ -12,11 +12,11 @@
 
 
 export interface TsiWebBOTaxCode {
-    code?: string;
-    city?: string;
-    state?: string;
-    retailGeneralLedgerCode?: string;
-    wholesaleGeneralLedgerCode?: string;
-    retailRate?: number;
-    wholesaleRate?: number;
+    Code?: string;
+    City?: string;
+    State?: string;
+    RetailGeneralLedgerCode?: string;
+    WholesaleGeneralLedgerCode?: string;
+    RetailRate?: number;
+    WholesaleRate?: number;
 }

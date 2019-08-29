@@ -14,26 +14,26 @@ import { TsiWebPriceBookItem } from './tsiWebPriceBookItem';
 
 
 export interface TsiWebPriceBookItemSummary {
-    itemId?: string;
-    priceBookItemNumber?: number;
-    item?: TsiWebPriceBookItem;
-    assembly?: Array<TsiWebAssemblyDetail>;
-    defaultProjectPhase?: string;
-    vendorPartNumbers?: string;
+    ItemId?: string;
+    PriceBookItemNumber?: number;
+    Item?: TsiWebPriceBookItem;
+    Assembly?: Array<TsiWebAssemblyDetail>;
+    DefaultProjectPhase?: string;
+    VendorPartNumbers?: string;
     /**
      * Gets or sets QuantityOnHand of the item in the pricebook.
      */
-    quantityOnHand?: number;
+    QuantityOnHand?: number;
     /**
      * Gets or sets QuantityReserved of the item in the pricebook.
      */
-    quantityReserved?: number;
+    QuantityReserved?: number;
     /**
      * Gets or sets QuantityOnOrder of the item in the pricebook.
      */
-    quantityOnOrder?: number;
+    QuantityOnOrder?: number;
     /**
      * Gets or sets Available Quantity of the item in the pricebook.
      */
-    available?: number;
+    Available?: number;
 }

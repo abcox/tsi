@@ -13,7 +13,7 @@ import { TsiWebPriceBookItemSummary } from './tsiWebPriceBookItemSummary';
 
 
 export interface TsiWebPriceBookItemResponse {
-    summary?: TsiWebPriceBookItemSummary;
-    success?: boolean;
-    message?: string;
+    Summary?: TsiWebPriceBookItemSummary;
+    Success?: boolean;
+    Message?: string;
 }

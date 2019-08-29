@@ -13,28 +13,28 @@ import { TsiWebQuoteAssemblyDetailAdjustment } from './tsiWebQuoteAssemblyDetail
 
 
 export interface TsiWebCreateQuoteDetailItemModel {
-    lineNumber?: number;
-    projectPhaseNumber?: number;
-    priceBookItemNumber?: number;
-    itemId?: string;
-    itemDescription?: string;
-    priceLevel?: number;
-    installLocation?: string;
-    priceAdjuster?: string;
-    orderByDate?: Date;
-    taxable?: boolean;
-    subjectToProviderTax?: boolean;
-    printOnInvoice?: boolean;
-    printOnQuote?: boolean;
-    itemCanBeDiscounted?: boolean;
-    useThisCostWhenOrdering?: boolean;
-    useBookPricesAndDiscounts?: boolean;
-    calculateUsingAdjustedDiscountPercent?: boolean;
-    allowPriceLessThanCost?: boolean;
-    canAdjustToMaxDiscount?: boolean;
-    adjustedSellingPrice?: number;
-    estimatedCost?: number;
-    adjustedDiscountPercent?: number;
-    quantity?: number;
-    openAssemblyAdjustments?: Array<TsiWebQuoteAssemblyDetailAdjustment>;
+    LineNumber?: number;
+    ProjectPhaseNumber?: number;
+    PriceBookItemNumber?: number;
+    ItemId?: string;
+    ItemDescription?: string;
+    PriceLevel?: number;
+    InstallLocation?: string;
+    PriceAdjuster?: string;
+    OrderByDate?: Date;
+    Taxable?: boolean;
+    SubjectToProviderTax?: boolean;
+    PrintOnInvoice?: boolean;
+    PrintOnQuote?: boolean;
+    ItemCanBeDiscounted?: boolean;
+    UseThisCostWhenOrdering?: boolean;
+    UseBookPricesAndDiscounts?: boolean;
+    CalculateUsingAdjustedDiscountPercent?: boolean;
+    AllowPriceLessThanCost?: boolean;
+    CanAdjustToMaxDiscount?: boolean;
+    AdjustedSellingPrice?: number;
+    EstimatedCost?: number;
+    AdjustedDiscountPercent?: number;
+    Quantity?: number;
+    OpenAssemblyAdjustments?: Array<TsiWebQuoteAssemblyDetailAdjustment>;
 }

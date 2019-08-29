@@ -12,14 +12,14 @@
 
 
 export interface TsiWebMovementLog {
-    location?: string;
-    documentType?: string;
-    documentNumber?: string;
-    newQuantityOnHand?: number;
-    quantity?: number;
-    newQuantityInLocation?: number;
-    transactionDate?: Date;
-    transactionCost?: number;
-    newAverageCost?: number;
-    enteredBy?: string;
+    Location?: string;
+    DocumentType?: string;
+    DocumentNumber?: string;
+    NewQuantityOnHand?: number;
+    Quantity?: number;
+    NewQuantityInLocation?: number;
+    TransactionDate?: Date;
+    TransactionCost?: number;
+    NewAverageCost?: number;
+    EnteredBy?: string;
 }

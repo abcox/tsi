@@ -13,8 +13,8 @@ import { TsiWebTimeEntryReason } from './tsiWebTimeEntryReason';
 
 
 export interface TsiWebCreateTimeEntryReasonRequest {
-    timeEntry?: TsiWebTimeEntryReason;
-    rateBasis?: string;
-    billingOption?: string;
-    useStandardRate?: boolean;
+    TimeEntry?: TsiWebTimeEntryReason;
+    RateBasis?: string;
+    BillingOption?: string;
+    UseStandardRate?: boolean;
 }

@@ -13,16 +13,16 @@ import { TsiWebContact } from './tsiWebContact';
 
 
 export interface TsiWebContactSummary {
-    contactNumber?: number;
-    contact?: TsiWebContact;
-    phoneNumber?: string;
-    emailAddress?: string;
-    faxNumber?: string;
-    searchName?: string;
-    accountName?: string;
-    isPrimaryContact?: boolean;
-    journalEntries?: number;
-    openOpportunities?: number;
-    openServiceOrders?: number;
-    pastDueTasks?: number;
+    ContactNumber?: number;
+    Contact?: TsiWebContact;
+    PhoneNumber?: string;
+    EmailAddress?: string;
+    FaxNumber?: string;
+    SearchName?: string;
+    AccountName?: string;
+    IsPrimaryContact?: boolean;
+    JournalEntries?: number;
+    OpenOpportunities?: number;
+    OpenServiceOrders?: number;
+    PastDueTasks?: number;
 }

@@ -13,7 +13,7 @@ import { TsiWebServiceOrderSummary } from './tsiWebServiceOrderSummary';
 
 
 export interface TsiWebQuoteToServiceOrderResponse {
-    summary?: TsiWebServiceOrderSummary;
-    success?: boolean;
-    message?: string;
+    Summary?: TsiWebServiceOrderSummary;
+    Success?: boolean;
+    Message?: string;
 }

@@ -12,24 +12,24 @@
 
 
 export interface TsiWebUpdateServiceOrderTimeLogModel {
-    billingOption?: string;
-    checkCompanyBusinessHours?: boolean;
-    tech?: number;
-    rateBasis?: string;
-    copyCommentsIndicator?: string;
-    deductHours?: number;
-    internalComments?: string;
-    comment?: string;
-    reason?: string;
-    creditUtilizationTime?: boolean;
-    startDateTime?: Date;
-    endDateTime?: Date;
-    logReasonLaborRate?: number;
-    deductMinutes?: number;
-    timeToInvoice?: string;
-    billableHours?: number;
-    billableMinutes?: number;
-    serviceOrderStatus?: string;
-    rejectedStatusReason?: string;
-    acceptanceStatus?: string;
+    BillingOption?: string;
+    CheckCompanyBusinessHours?: boolean;
+    Tech?: number;
+    RateBasis?: string;
+    CopyCommentsIndicator?: string;
+    DeductHours?: number;
+    InternalComments?: string;
+    Comment?: string;
+    Reason?: string;
+    CreditUtilizationTime?: boolean;
+    StartDateTime?: Date;
+    EndDateTime?: Date;
+    LogReasonLaborRate?: number;
+    DeductMinutes?: number;
+    TimeToInvoice?: string;
+    BillableHours?: number;
+    BillableMinutes?: number;
+    ServiceOrderStatus?: string;
+    RejectedStatusReason?: string;
+    AcceptanceStatus?: string;
 }

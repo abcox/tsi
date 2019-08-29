@@ -13,7 +13,7 @@ import { TsiWebOpportunitySummary } from './tsiWebOpportunitySummary';
 
 
 export interface TsiWebOpportunityResponse {
-    opportunitySummary?: TsiWebOpportunitySummary;
-    success?: boolean;
-    message?: string;
+    OpportunitySummary?: TsiWebOpportunitySummary;
+    Success?: boolean;
+    Message?: string;
 }

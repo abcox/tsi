@@ -13,7 +13,7 @@ import { TsiWebTimeSlipSummary } from './tsiWebTimeSlipSummary';
 
 
 export interface TsiWebTimeSlipResponse {
-    timeSlipSummary?: TsiWebTimeSlipSummary;
-    success?: boolean;
-    message?: string;
+    TimeSlipSummary?: TsiWebTimeSlipSummary;
+    Success?: boolean;
+    Message?: string;
 }

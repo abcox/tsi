@@ -14,7 +14,7 @@ import { TsiWebPriceBookItem } from './tsiWebPriceBookItem';
 
 
 export interface TsiWebCreatePriceBookItemModel {
-    itemId: string;
-    item: TsiWebPriceBookItem;
-    assembly?: Array<TsiWebAssemblyItem>;
+    ItemId: string;
+    Item: TsiWebPriceBookItem;
+    Assembly?: Array<TsiWebAssemblyItem>;
 }

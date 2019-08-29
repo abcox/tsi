@@ -13,12 +13,12 @@ import { TsiWebDocument } from './tsiWebDocument';
 
 
 export interface TsiWebDocumentSummary {
-    documentId?: number;
-    accountNumber?: number;
-    accountName?: string;
-    contactNumber?: number;
-    contactName?: string;
-    appliesToDocumentType?: string;
-    appliesToDocumentNumber?: number;
-    document?: TsiWebDocument;
+    DocumentId?: number;
+    AccountNumber?: number;
+    AccountName?: string;
+    ContactNumber?: number;
+    ContactName?: string;
+    AppliesToDocumentType?: string;
+    AppliesToDocumentNumber?: number;
+    Document?: TsiWebDocument;
 }

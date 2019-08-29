@@ -12,6 +12,6 @@
 
 
 export interface TsiWebExpensePaymentType {
-    expensePaymentTypeNumber?: number;
-    expensePaymentTypeDescription?: string;
+    ExpensePaymentTypeNumber?: number;
+    ExpensePaymentTypeDescription?: string;
 }

@@ -12,6 +12,6 @@
 
 
 export interface TsiWebSICCode {
-    code?: string;
-    description?: string;
+    Code?: string;
+    Description?: string;
 }

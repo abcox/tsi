@@ -12,10 +12,10 @@
 
 
 export interface TsiWebAccountExternalProduct {
-    accountExternalProductId?: number;
-    externalProductId?: number;
-    externalProduct?: string;
-    externalId: string;
-    externalSystemId?: string;
-    comment?: string;
+    AccountExternalProductId?: number;
+    ExternalProductId?: number;
+    ExternalProduct?: string;
+    ExternalId: string;
+    ExternalSystemId?: string;
+    Comment?: string;
 }

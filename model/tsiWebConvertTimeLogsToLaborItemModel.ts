@@ -12,10 +12,10 @@
 
 
 export interface TsiWebConvertTimeLogsToLaborItemModel {
-    timeLogs?: Array<number>;
-    laborItemType?: string;
-    itemId?: string;
-    priceBookItemNumber?: number;
-    canConvertNonBillableTimeLogs?: boolean;
-    canCombineLogsWithDifferentLaborRatesOrRateBasis?: boolean;
+    TimeLogs?: Array<number>;
+    LaborItemType?: string;
+    ItemId?: string;
+    PriceBookItemNumber?: number;
+    CanConvertNonBillableTimeLogs?: boolean;
+    CanCombineLogsWithDifferentLaborRatesOrRateBasis?: boolean;
 }

@@ -12,9 +12,9 @@
 
 
 export interface TsiWebExternalProduct {
-    externalProductId?: number;
-    product?: string;
-    productType?: number;
-    systemEntry?: boolean;
-    active?: boolean;
+    ExternalProductId?: number;
+    Product?: string;
+    ProductType?: number;
+    SystemEntry?: boolean;
+    Active?: boolean;
 }

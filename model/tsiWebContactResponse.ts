@@ -13,7 +13,7 @@ import { TsiWebContactSummary } from './tsiWebContactSummary';
 
 
 export interface TsiWebContactResponse {
-    contactSummary?: TsiWebContactSummary;
-    success?: boolean;
-    message?: string;
+    ContactSummary?: TsiWebContactSummary;
+    Success?: boolean;
+    Message?: string;
 }

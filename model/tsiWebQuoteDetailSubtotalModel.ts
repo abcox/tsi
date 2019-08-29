@@ -12,7 +12,7 @@
 
 
 export interface TsiWebQuoteDetailSubtotalModel {
-    printSubtotalInHeader?: boolean;
-    comment?: string;
-    printOnQuote?: boolean;
+    PrintSubtotalInHeader?: boolean;
+    Comment?: string;
+    PrintOnQuote?: boolean;
 }

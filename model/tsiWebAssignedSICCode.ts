@@ -12,6 +12,6 @@
 
 
 export interface TsiWebAssignedSICCode {
-    sICCode?: string;
-    lastModified?: Date;
+    SICCode?: string;
+    LastModified?: Date;
 }

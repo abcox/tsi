@@ -13,7 +13,7 @@ import { TsiWebAccountServiceDetails } from './tsiWebAccountServiceDetails';
 
 
 export interface TsiWebAccountServiceDetailsResponse {
-    serviceDetails?: TsiWebAccountServiceDetails;
-    success?: boolean;
-    message?: string;
+    ServiceDetails?: TsiWebAccountServiceDetails;
+    Success?: boolean;
+    Message?: string;
 }

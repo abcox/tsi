@@ -12,7 +12,7 @@
 
 
 export interface TsiWebTaskActionPlan {
-    taskActionPlansKeyNumber?: number;
-    actionPlanName?: string;
-    scopeOfWork?: string;
+    TaskActionPlansKeyNumber?: number;
+    ActionPlanName?: string;
+    ScopeOfWork?: string;
 }

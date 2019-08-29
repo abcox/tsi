@@ -16,9 +16,9 @@ import { TsiWebVendor } from './tsiWebVendor';
 
 
 export interface TsiWebPurchaseOrderDetail {
-    purchaseOrderNumber?: number;
-    purchaseOrder?: TsiWebPurchaseOrder;
-    purchaseOrderVendorSummary?: TsiWebVendor;
-    purchaseOrderLineItems?: Array<TsiWebPurchaseOrderLineItem>;
-    purchaseOrderRelatedDocuments?: Array<TsiWebPurchaseOrderRelatedDocument>;
+    PurchaseOrderNumber?: number;
+    PurchaseOrder?: TsiWebPurchaseOrder;
+    PurchaseOrderVendorSummary?: TsiWebVendor;
+    PurchaseOrderLineItems?: Array<TsiWebPurchaseOrderLineItem>;
+    PurchaseOrderRelatedDocuments?: Array<TsiWebPurchaseOrderRelatedDocument>;
 }

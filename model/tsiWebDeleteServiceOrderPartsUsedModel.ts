@@ -12,7 +12,7 @@
 
 
 export interface TsiWebDeleteServiceOrderPartsUsedModel {
-    deleteOrderedPart?: boolean;
-    deleteLaborWithTimeLogs?: boolean;
-    deleteItemOnExchange?: boolean;
+    DeleteOrderedPart?: boolean;
+    DeleteLaborWithTimeLogs?: boolean;
+    DeleteItemOnExchange?: boolean;
 }

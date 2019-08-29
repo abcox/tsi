@@ -12,9 +12,9 @@
 
 
 export interface TsiWebTaskChecklistItem {
-    taskNumber?: number;
-    taskCheckListNumber?: number;
-    itemText?: string;
-    ordinalPosition?: number;
-    completed?: boolean;
+    TaskNumber?: number;
+    TaskCheckListNumber?: number;
+    ItemText?: string;
+    OrdinalPosition?: number;
+    Completed?: boolean;
 }

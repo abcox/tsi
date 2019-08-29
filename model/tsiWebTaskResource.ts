@@ -12,5 +12,5 @@
 
 
 export interface TsiWebTaskResource {
-    resourceName?: string;
+    ResourceName?: string;
 }

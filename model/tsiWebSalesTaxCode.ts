@@ -12,16 +12,16 @@
 
 
 export interface TsiWebSalesTaxCode {
-    code?: string;
-    description?: string;
-    customerTaxCode?: string;
-    itemFullyTaxableCode?: string;
-    itemProvincialOnlyCode?: string;
-    itemGSTOnlyCode?: string;
-    itemExemptCode?: string;
-    hasTieredDistrict?: boolean;
-    taxGST?: boolean;
-    isHarmonizedTaxCode?: boolean;
-    systemDefault?: boolean;
-    totalRate?: number;
+    Code?: string;
+    Description?: string;
+    CustomerTaxCode?: string;
+    ItemFullyTaxableCode?: string;
+    ItemProvincialOnlyCode?: string;
+    ItemGSTOnlyCode?: string;
+    ItemExemptCode?: string;
+    HasTieredDistrict?: boolean;
+    TaxGST?: boolean;
+    IsHarmonizedTaxCode?: boolean;
+    SystemDefault?: boolean;
+    TotalRate?: number;
 }

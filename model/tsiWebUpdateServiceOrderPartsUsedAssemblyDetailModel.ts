@@ -13,12 +13,12 @@ import { SystemNullableTsiWebOptionalDateTime } from './systemNullableTsiWebOpti
 
 
 export interface TsiWebUpdateServiceOrderPartsUsedAssemblyDetailModel {
-    quantity?: number;
-    sellingPrice?: number;
-    printOnInvoice?: boolean;
-    orderByDate?: SystemNullableTsiWebOptionalDateTime;
-    estimatedCost?: number;
-    useThisCostWhenOrdering?: boolean;
-    allowPriceLessThanCost?: boolean;
-    allowQuantityLessThanOrdered?: boolean;
+    Quantity?: number;
+    SellingPrice?: number;
+    PrintOnInvoice?: boolean;
+    OrderByDate?: SystemNullableTsiWebOptionalDateTime;
+    EstimatedCost?: number;
+    UseThisCostWhenOrdering?: boolean;
+    AllowPriceLessThanCost?: boolean;
+    AllowQuantityLessThanOrdered?: boolean;
 }

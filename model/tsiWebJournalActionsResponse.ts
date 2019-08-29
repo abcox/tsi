@@ -13,7 +13,7 @@ import { TsiWebJournalAction } from './tsiWebJournalAction';
 
 
 export interface TsiWebJournalActionsResponse {
-    actions?: Array<TsiWebJournalAction>;
-    success?: boolean;
-    message?: string;
+    Actions?: Array<TsiWebJournalAction>;
+    Success?: boolean;
+    Message?: string;
 }

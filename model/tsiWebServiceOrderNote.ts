@@ -12,14 +12,14 @@
 
 
 export interface TsiWebServiceOrderNote {
-    serviceOrderNoteNumber?: number;
-    topic?: string;
-    note?: string;
-    dateCreated?: Date;
-    startTime?: Date;
-    lastModified?: Date;
-    emailTo?: string;
-    emailCarbonCopy?: string;
-    repNumber?: number;
-    repName?: string;
+    ServiceOrderNoteNumber?: number;
+    Topic?: string;
+    Note?: string;
+    DateCreated?: Date;
+    StartTime?: Date;
+    LastModified?: Date;
+    EmailTo?: string;
+    EmailCarbonCopy?: string;
+    RepNumber?: number;
+    RepName?: string;
 }

@@ -12,6 +12,6 @@
 
 
 export interface TsiWebDispatchBoard {
-    dispatchBoardId?: number;
-    description?: string;
+    DispatchBoardId?: number;
+    Description?: string;
 }

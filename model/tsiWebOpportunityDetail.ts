@@ -18,19 +18,19 @@ import { TsiWebPerson } from './tsiWebPerson';
 
 
 export interface TsiWebOpportunityDetail {
-    opportunityNumber?: number;
-    opportunity?: TsiWebOpportunity;
-    stage?: TsiWebOpportunityStageSummary;
-    stageLogs?: Array<TsiWebOpportunityStageLog>;
-    account?: TsiWebAccount;
-    contact?: TsiWebPerson;
-    phoneNumber?: string;
-    faxNumber?: string;
-    ownerName?: string;
-    ownerEmailAddress?: string;
-    ownerPhoneNumber?: string;
-    customFields?: Array<TsiWebCustomField>;
-    journalEntries?: number;
-    pastDueTasks?: number;
-    openQuotes?: number;
+    OpportunityNumber?: number;
+    Opportunity?: TsiWebOpportunity;
+    Stage?: TsiWebOpportunityStageSummary;
+    StageLogs?: Array<TsiWebOpportunityStageLog>;
+    Account?: TsiWebAccount;
+    Contact?: TsiWebPerson;
+    PhoneNumber?: string;
+    FaxNumber?: string;
+    OwnerName?: string;
+    OwnerEmailAddress?: string;
+    OwnerPhoneNumber?: string;
+    CustomFields?: Array<TsiWebCustomField>;
+    JournalEntries?: number;
+    PastDueTasks?: number;
+    OpenQuotes?: number;
 }

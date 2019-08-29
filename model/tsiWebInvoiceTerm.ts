@@ -12,11 +12,11 @@
 
 
 export interface TsiWebInvoiceTerm {
-    term?: string;
-    aRTermsCode?: string;
-    netDateOfNextMonth?: number;
-    netDays?: number;
-    discountDays?: number;
-    discountPercent?: number;
-    isSystemDefault?: boolean;
+    Term?: string;
+    ARTermsCode?: string;
+    NetDateOfNextMonth?: number;
+    NetDays?: number;
+    DiscountDays?: number;
+    DiscountPercent?: number;
+    IsSystemDefault?: boolean;
 }

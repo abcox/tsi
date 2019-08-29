@@ -13,15 +13,15 @@ import { TsiWebWorkOrder } from './tsiWebWorkOrder';
 
 
 export interface TsiWebWorkOrderSummary {
-    workOrder?: TsiWebWorkOrder;
-    workOrderNumber?: number;
-    details?: number;
-    accountName?: string;
-    quoteDescription?: string;
-    phoneNumber?: string;
-    faxNumber?: string;
-    opportunityName?: string;
-    projectDescription?: string;
-    payMethodName?: string;
-    projectPhase?: string;
+    WorkOrder?: TsiWebWorkOrder;
+    WorkOrderNumber?: number;
+    Details?: number;
+    AccountName?: string;
+    QuoteDescription?: string;
+    PhoneNumber?: string;
+    FaxNumber?: string;
+    OpportunityName?: string;
+    ProjectDescription?: string;
+    PayMethodName?: string;
+    ProjectPhase?: string;
 }

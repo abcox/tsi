@@ -13,10 +13,10 @@ import { TsiWebAccountManagedAsset } from './tsiWebAccountManagedAsset';
 
 
 export interface TsiWebAccountManagedAssetResponse {
-    accountManagedAssets?: Array<TsiWebAccountManagedAsset>;
-    pageSize?: number;
-    nextRow?: number;
-    totalCount?: number;
-    success?: boolean;
-    message?: string;
+    AccountManagedAssets?: Array<TsiWebAccountManagedAsset>;
+    PageSize?: number;
+    NextRow?: number;
+    TotalCount?: number;
+    Success?: boolean;
+    Message?: string;
 }

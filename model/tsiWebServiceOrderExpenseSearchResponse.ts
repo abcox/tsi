@@ -13,10 +13,10 @@ import { TsiWebServiceOrderExpenseSearchResult } from './tsiWebServiceOrderExpen
 
 
 export interface TsiWebServiceOrderExpenseSearchResponse {
-    serviceOrderExpenseSearchResults?: Array<TsiWebServiceOrderExpenseSearchResult>;
-    pageSize?: number;
-    nextRow?: number;
-    totalCount?: number;
-    success?: boolean;
-    message?: string;
+    ServiceOrderExpenseSearchResults?: Array<TsiWebServiceOrderExpenseSearchResult>;
+    PageSize?: number;
+    NextRow?: number;
+    TotalCount?: number;
+    Success?: boolean;
+    Message?: string;
 }

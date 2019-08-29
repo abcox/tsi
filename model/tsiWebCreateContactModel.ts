@@ -15,7 +15,7 @@ import { TsiWebPhoneNumber } from './tsiWebPhoneNumber';
 
 
 export interface TsiWebCreateContactModel {
-    contact?: TsiWebContact;
-    primaryPhoneNumber?: TsiWebPhoneNumber;
-    primaryEmailAddress?: TsiWebEmailAddress;
+    Contact?: TsiWebContact;
+    PrimaryPhoneNumber?: TsiWebPhoneNumber;
+    PrimaryEmailAddress?: TsiWebEmailAddress;
 }

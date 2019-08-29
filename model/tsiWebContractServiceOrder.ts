@@ -12,24 +12,24 @@
 
 
 export interface TsiWebContractServiceOrder {
-    serviceOrderNumber?: number;
-    contactName?: string;
-    contactNumber?: number;
-    accountNumber?: number;
-    technicianAssigned?: number;
-    technicianAssignedName?: string;
-    invoicedStatus?: string;
-    billable?: string;
-    actualTime?: string;
-    customerPurchaseOrder?: string;
-    priority?: string;
-    serviceOrderType?: string;
-    dateTimeReceived?: Date;
-    dateTimeRequested?: Date;
-    dateTimeOpened?: Date;
-    dateTimeClosed?: Date;
-    system?: string;
-    reference?: string;
-    status?: string;
-    briefDescription?: string;
+    ServiceOrderNumber?: number;
+    ContactName?: string;
+    ContactNumber?: number;
+    AccountNumber?: number;
+    TechnicianAssigned?: number;
+    TechnicianAssignedName?: string;
+    InvoicedStatus?: string;
+    Billable?: string;
+    ActualTime?: string;
+    CustomerPurchaseOrder?: string;
+    Priority?: string;
+    ServiceOrderType?: string;
+    DateTimeReceived?: Date;
+    DateTimeRequested?: Date;
+    DateTimeOpened?: Date;
+    DateTimeClosed?: Date;
+    System?: string;
+    Reference?: string;
+    Status?: string;
+    BriefDescription?: string;
 }

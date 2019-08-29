@@ -12,6 +12,6 @@
 
 
 export interface TsiWebOpportunityName {
-    name?: string;
-    expectedAmount?: number;
+    Name?: string;
+    ExpectedAmount?: number;
 }

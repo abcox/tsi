@@ -13,10 +13,10 @@ import { TsiWebTaskSummary } from './tsiWebTaskSummary';
 
 
 export interface TsiWebSearchTaskResponse {
-    tasks?: Array<TsiWebTaskSummary>;
-    pageSize?: number;
-    nextRow?: number;
-    totalCount?: number;
-    success?: boolean;
-    message?: string;
+    Tasks?: Array<TsiWebTaskSummary>;
+    PageSize?: number;
+    NextRow?: number;
+    TotalCount?: number;
+    Success?: boolean;
+    Message?: string;
 }

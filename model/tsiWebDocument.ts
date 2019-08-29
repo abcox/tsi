@@ -12,11 +12,11 @@
 
 
 export interface TsiWebDocument {
-    title: string;
-    topic: string;
-    description?: string;
-    fileName: string;
-    displayInPortal?: boolean;
-    isMigrated?: boolean;
-    isEmailConnectorDocument?: boolean;
+    Title: string;
+    Topic: string;
+    Description?: string;
+    FileName: string;
+    DisplayInPortal?: boolean;
+    IsMigrated?: boolean;
+    IsEmailConnectorDocument?: boolean;
 }

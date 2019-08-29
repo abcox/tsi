@@ -14,9 +14,9 @@ import { TsiWebAccountAssetAssemblyDetail } from './tsiWebAccountAssetAssemblyDe
 
 
 export interface TsiWebAccountAssetSummary {
-    accountAssetNumber?: number;
-    accountNumber?: number;
-    asset?: TsiWebAccountAsset;
-    assembly?: Array<TsiWebAccountAssetAssemblyDetail>;
-    warrantyCovered?: boolean;
+    AccountAssetNumber?: number;
+    AccountNumber?: number;
+    Asset?: TsiWebAccountAsset;
+    Assembly?: Array<TsiWebAccountAssetAssemblyDetail>;
+    WarrantyCovered?: boolean;
 }

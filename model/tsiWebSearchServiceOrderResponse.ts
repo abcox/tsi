@@ -13,10 +13,10 @@ import { TsiWebServiceOrderSummary } from './tsiWebServiceOrderSummary';
 
 
 export interface TsiWebSearchServiceOrderResponse {
-    serviceOrders?: Array<TsiWebServiceOrderSummary>;
-    pageSize?: number;
-    nextRow?: number;
-    totalCount?: number;
-    success?: boolean;
-    message?: string;
+    ServiceOrders?: Array<TsiWebServiceOrderSummary>;
+    PageSize?: number;
+    NextRow?: number;
+    TotalCount?: number;
+    Success?: boolean;
+    Message?: string;
 }

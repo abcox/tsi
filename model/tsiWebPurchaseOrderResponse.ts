@@ -13,7 +13,7 @@ import { TsiWebPurchaseOrderSummary } from './tsiWebPurchaseOrderSummary';
 
 
 export interface TsiWebPurchaseOrderResponse {
-    purchaseOrderSummary?: TsiWebPurchaseOrderSummary;
-    success?: boolean;
-    message?: string;
+    PurchaseOrderSummary?: TsiWebPurchaseOrderSummary;
+    Success?: boolean;
+    Message?: string;
 }

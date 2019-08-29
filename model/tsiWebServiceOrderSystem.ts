@@ -12,9 +12,9 @@
 
 
 export interface TsiWebServiceOrderSystem {
-    techSkillLevel?: number;
-    skill?: string;
-    comments?: string;
-    systemType?: string;
-    repGroupForSystem?: string;
+    TechSkillLevel?: number;
+    Skill?: string;
+    Comments?: string;
+    SystemType?: string;
+    RepGroupForSystem?: string;
 }

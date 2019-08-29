@@ -13,7 +13,7 @@ import { TsiWebContractSummary } from './tsiWebContractSummary';
 
 
 export interface TsiWebContractResponse {
-    contractSummary?: TsiWebContractSummary;
-    success?: boolean;
-    message?: string;
+    ContractSummary?: TsiWebContractSummary;
+    Success?: boolean;
+    Message?: string;
 }

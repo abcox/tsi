@@ -13,19 +13,19 @@ import { SystemNullableTsiWebOptionalDateTime } from './systemNullableTsiWebOpti
 
 
 export interface TsiWebUpdateContractLineItemModel {
-    itemID?: string;
-    itemDescription?: string;
-    quantity?: number;
-    warrantyExpiration?: SystemNullableTsiWebOptionalDateTime;
-    startDate?: Date;
-    cancelDate?: SystemNullableTsiWebOptionalDateTime;
-    serialNumber?: string;
-    reference?: string;
-    serviceOrderPriority?: string;
-    contactName?: string;
-    contactPhoneNumber?: string;
-    yearlyPrice?: number;
-    contractPrice?: number;
-    renewalListPercentage?: number;
-    renewalListPrice?: number;
+    ItemID?: string;
+    ItemDescription?: string;
+    Quantity?: number;
+    WarrantyExpiration?: SystemNullableTsiWebOptionalDateTime;
+    StartDate?: Date;
+    CancelDate?: SystemNullableTsiWebOptionalDateTime;
+    SerialNumber?: string;
+    Reference?: string;
+    ServiceOrderPriority?: string;
+    ContactName?: string;
+    ContactPhoneNumber?: string;
+    YearlyPrice?: number;
+    ContractPrice?: number;
+    RenewalListPercentage?: number;
+    RenewalListPrice?: number;
 }

@@ -13,25 +13,25 @@ import { TsiWebAlternateAddress } from './tsiWebAlternateAddress';
 
 
 export interface TsiWebCreateQuoteModel {
-    accountNumber: number;
-    existingQuoteNumber?: number;
-    contactNumber?: number;
-    opportunityNumber?: number;
-    projectNumber?: number;
-    projectPhaseNumber?: number;
-    repNumber?: number;
-    shipToAddressAccountNumber?: number;
-    billToAddressAccountNumber?: number;
-    alternateShipToAddressID?: number;
-    alternateBillToAddressID?: number;
-    shipToAddressType?: string;
-    shipTo?: TsiWebAlternateAddress;
-    billToAddressType?: string;
-    billTo?: TsiWebAlternateAddress;
-    description?: string;
-    useAlternateShipToTaxCode?: boolean;
-    updateDetailsToReflectCurrentPricing?: boolean;
-    preserveLineItemPercentageDiscounts?: boolean;
-    applyQuoteProjectPhaseToDetailItems?: boolean;
-    addMissingDetailProjectPhasesToProject?: boolean;
+    AccountNumber: number;
+    ExistingQuoteNumber?: number;
+    ContactNumber?: number;
+    OpportunityNumber?: number;
+    ProjectNumber?: number;
+    ProjectPhaseNumber?: number;
+    RepNumber?: number;
+    ShipToAddressAccountNumber?: number;
+    BillToAddressAccountNumber?: number;
+    AlternateShipToAddressID?: number;
+    AlternateBillToAddressID?: number;
+    ShipToAddressType?: string;
+    ShipTo?: TsiWebAlternateAddress;
+    BillToAddressType?: string;
+    BillTo?: TsiWebAlternateAddress;
+    Description?: string;
+    UseAlternateShipToTaxCode?: boolean;
+    UpdateDetailsToReflectCurrentPricing?: boolean;
+    PreserveLineItemPercentageDiscounts?: boolean;
+    ApplyQuoteProjectPhaseToDetailItems?: boolean;
+    AddMissingDetailProjectPhasesToProject?: boolean;
 }

@@ -14,7 +14,7 @@ import { TsiWebTimeSlip } from './tsiWebTimeSlip';
 
 
 export interface TsiWebTimeSlipSummary {
-    timeSlip?: TsiWebTimeSlip;
-    techAssignedRep?: TsiWebPerson;
-    acceptedOrRejectedByRep?: TsiWebPerson;
+    TimeSlip?: TsiWebTimeSlip;
+    TechAssignedRep?: TsiWebPerson;
+    AcceptedOrRejectedByRep?: TsiWebPerson;
 }

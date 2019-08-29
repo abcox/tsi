@@ -15,77 +15,77 @@ export interface TsiWebItemCovered {
     /**
      * Gets or sets the ContractDetailKeyNumber
      */
-    contractDetailKeyNumber?: number;
+    ContractDetailKeyNumber?: number;
     /**
      * Gets or sets the AccountNumber
      */
-    accountNumber?: number;
+    AccountNumber?: number;
     /**
      * Gets or sets the serial number
      */
-    serialNumber?: string;
+    SerialNumber?: string;
     /**
      * Gets or sets the Item ID
      */
-    itemID?: string;
+    ItemID?: string;
     /**
      * Gets or sets the ItemDescription
      */
-    itemDescription?: string;
+    ItemDescription?: string;
     /**
      * Gets or sets the Quantity
      */
-    quantity?: number;
+    Quantity?: number;
     /**
      * Gets or sets the refernce
      */
-    reference?: string;
+    Reference?: string;
     /**
      * Gets or sets the warranty expiration
      */
-    warrantyExpiration?: Date;
+    WarrantyExpiration?: Date;
     /**
      * Gets or sets the Cancel Date
      */
-    cancelDate?: Date;
+    CancelDate?: Date;
     /**
      * Gets or sets the contact name
      */
-    contactName?: string;
+    ContactName?: string;
     /**
      * Gets or sets the contact phone
      */
-    contactPhoneNumber?: string;
+    ContactPhoneNumber?: string;
     /**
      * Gets or sets the start date
      */
-    startDate?: Date;
+    StartDate?: Date;
     /**
      * Gets or sets the YearlyPrice
      */
-    yearlyPrice?: number;
+    YearlyPrice?: number;
     /**
      * Gets or sets the RenewalListPercentage
      */
-    renewalListPercentage?: number;
+    RenewalListPercentage?: number;
     /**
      * Gets or sets the ListPrice
      */
-    renewalListPrice?: number;
+    RenewalListPrice?: number;
     /**
      * Gets or sets the CustomeInventoryNumber
      */
-    customerInventoryNumber?: number;
+    CustomerInventoryNumber?: number;
     /**
      * Gets or sets the  ContractPrice
      */
-    contractPrice?: number;
+    ContractPrice?: number;
     /**
      * Gets or sets the  DeviceId
      */
-    deviceId?: string;
+    DeviceId?: string;
     /**
      * Gets or sets the  SO Priority
      */
-    serviceOrderPriority?: string;
+    ServiceOrderPriority?: string;
 }

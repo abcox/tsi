@@ -15,63 +15,63 @@ export interface TsiWebAgreementCustomerAsset {
     /**
      * Gets or sets AssetId
      */
-    customerAssetNumber?: number;
+    CustomerAssetNumber?: number;
     /**
      * Gets or sets Provider
      */
-    provider?: string;
+    Provider?: string;
     /**
      * Gets or sets AssetType
      */
-    assetType?: string;
+    AssetType?: string;
     /**
      * Gets or sets ProviderAssetName
      */
-    providerAssetName?: string;
+    ProviderAssetName?: string;
     /**
      * Gets or sets ProviderAssetId
      */
-    providerAssetId?: number;
+    ProviderAssetId?: number;
     /**
      * Gets or sets the Price
      */
-    price?: number;
+    Price?: number;
     /**
      * Gets or sets the PriceLevel
      */
-    priceLevel?: number;
+    PriceLevel?: number;
     /**
      * Gets or sets the PriceLevelDescription
      */
-    priceLevelDescription?: string;
+    PriceLevelDescription?: string;
     /**
      * Gets or sets the ExternalId
      */
-    externalId?: string;
+    ExternalId?: string;
     /**
      * Gets or sets the DateAdded
      */
-    dateAdded?: Date;
+    DateAdded?: Date;
     /**
      * Gets or sets the DeviceURL
      */
-    deviceURL?: string;
+    DeviceURL?: string;
     /**
      * Gets or sets the LastPolledDate
      */
-    lastPolledDate?: Date;
+    LastPolledDate?: Date;
     /**
      * Gets or sets the DateRemoved
      */
-    dateRemoved?: Date;
+    DateRemoved?: Date;
     /**
      * Gets or sets the IPAdress
      */
-    iPAddress?: string;
+    IPAddress?: string;
     /**
      * Gets or sets the MacAddress
      */
-    macAddress?: string;
+    MacAddress?: string;
     /**
      * Gets or sets the OS
      */
@@ -79,9 +79,9 @@ export interface TsiWebAgreementCustomerAsset {
     /**
      * Gets or sets the SerialNumber
      */
-    serialNumber?: string;
+    SerialNumber?: string;
     /**
      * Gets or sets the Description
      */
-    description?: string;
+    Description?: string;
 }

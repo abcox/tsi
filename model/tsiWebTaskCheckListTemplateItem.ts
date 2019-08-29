@@ -12,6 +12,6 @@
 
 
 export interface TsiWebTaskCheckListTemplateItem {
-    itemText?: string;
-    ordinalPosition?: number;
+    ItemText?: string;
+    OrdinalPosition?: number;
 }

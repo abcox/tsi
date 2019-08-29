@@ -12,13 +12,13 @@
 
 
 export interface TsiWebServiceOrderContract {
-    description?: string;
-    expiration?: Date;
-    basis?: string;
-    contractRemaining?: string;
-    startDate?: Date;
-    isActive?: boolean;
-    status?: string;
-    isFutureContract?: boolean;
-    hasRemainingContract?: boolean;
+    Description?: string;
+    Expiration?: Date;
+    Basis?: string;
+    ContractRemaining?: string;
+    StartDate?: Date;
+    IsActive?: boolean;
+    Status?: string;
+    IsFutureContract?: boolean;
+    HasRemainingContract?: boolean;
 }

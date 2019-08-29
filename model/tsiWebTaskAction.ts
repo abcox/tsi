@@ -12,7 +12,7 @@
 
 
 export interface TsiWebTaskAction {
-    action?: string;
-    taskType?: string;
-    color?: string;
+    Action?: string;
+    TaskType?: string;
+    Color?: string;
 }

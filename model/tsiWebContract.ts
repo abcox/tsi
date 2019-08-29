@@ -17,268 +17,268 @@ export interface TsiWebContract {
     /**
      * Gets or sets the contract description
      */
-    description?: string;
+    Description?: string;
     /**
      * Gets or sets the contract type
      */
-    contractType?: string;
+    ContractType?: string;
     /**
      * Gets or sets the contract reference
      */
-    reference?: string;
+    Reference?: string;
     /**
      * Gets or sets the contract DateWritten
      */
-    dateWritten?: Date;
+    DateWritten?: Date;
     /**
      * Gets or sets the contract created by
      */
-    createdBy?: number;
+    CreatedBy?: number;
     /**
      * Gets or sets the contract status
      */
-    status?: string;
-    isActive?: boolean;
-    contractRemaining?: string;
-    isFutureContract?: boolean;
-    hasContractRemaining?: boolean;
+    Status?: string;
+    IsActive?: boolean;
+    ContractRemaining?: string;
+    IsFutureContract?: boolean;
+    HasContractRemaining?: boolean;
     /**
      * Gets or sets the contract payment type
      */
-    paymentType?: string;
+    PaymentType?: string;
     /**
      * Gets or sets the contract CustomerPONumber
      */
-    customerPONumber?: string;
+    CustomerPONumber?: string;
     /**
      * Gets or sets the contract contact name
      */
-    contactName?: string;
+    ContactName?: string;
     /**
      * Gets or sets the contract DefaultSOPriority
      */
-    defaultServiceOrderPriority?: string;
+    DefaultServiceOrderPriority?: string;
     /**
      * Gets or sets the contract AssignedTech
      */
-    assignedTech?: number;
+    AssignedTech?: number;
     /**
      * Gets or sets the contract start date
      */
-    startDate?: Date;
+    StartDate?: Date;
     /**
      * Gets or sets the contract EndDate
      */
-    endDate?: Date;
+    EndDate?: Date;
     /**
      * Gets or sets the contract DaysLeft
      */
-    daysLeft?: number;
+    DaysLeft?: number;
     /**
      * Gets or sets the contract LinkedAgreement
      */
-    linkedAgreement?: number;
+    LinkedAgreement?: number;
     /**
      * Gets or sets the contract LimitServiceOrdersToItemsCovered
      */
-    limitServiceOrdersToItemsCovered?: boolean;
+    LimitServiceOrdersToItemsCovered?: boolean;
     /**
      * Gets or sets the contract Price
      */
-    price?: number;
+    Price?: number;
     /**
      * Gets or sets the PricingMethod
      */
-    pricingMethod?: string;
+    PricingMethod?: string;
     /**
      * Gets or sets the BilledToDateAmount
      */
-    billedToDateAmount?: number;
+    BilledToDateAmount?: number;
     /**
      * Gets or sets the RepToCredit
      */
-    repToCredit?: number;
+    RepToCredit?: number;
     /**
      * Gets or sets the RenewContractNumber
      */
-    renewContractNumber?: number;
+    RenewContractNumber?: number;
     /**
      * Gets or sets the SalesTaxCode
      */
-    salesTaxCode?: string;
+    SalesTaxCode?: string;
     /**
      * Gets or sets the BillDayOfMonth
      */
-    billDayOfMonth?: number;
+    BillDayOfMonth?: number;
     /**
      * Gets or sets the BillStartMonth
      */
-    billStartMonth?: number;
+    BillStartMonth?: number;
     /**
      * Gets or sets the AutoInvoice
      */
-    autoInvoice?: boolean;
+    AutoInvoice?: boolean;
     /**
      * Gets or sets the DaysAheadToInvoice
      */
-    daysAheadToInvoice?: number;
+    DaysAheadToInvoice?: number;
     /**
      * Gets or sets the EmailInvoice
      */
-    emailInvoice?: boolean;
+    EmailInvoice?: boolean;
     /**
      * Gets or sets the AllowInvoiceConsolidation
      */
-    allowInvoiceConsolidation?: boolean;
+    AllowInvoiceConsolidation?: boolean;
     /**
      * Gets or sets the PrintIncludesMemo
      */
-    printIncludesMemo?: boolean;
+    PrintIncludesMemo?: boolean;
     /**
      * Gets or sets the PrintSpecialInstructions
      */
-    printSpecialInstructions?: boolean;
+    PrintSpecialInstructions?: boolean;
     /**
      * Gets or sets the InvoiceTerms
      */
-    invoiceTerms?: string;
+    InvoiceTerms?: string;
     /**
      * Gets or sets the AutoPay
      */
-    autoPay?: boolean;
+    AutoPay?: boolean;
     /**
      * Gets or sets the DayOfMonthToPay
      */
-    dayOfMonthToPay?: number;
+    DayOfMonthToPay?: number;
     /**
      * Gets or sets the PayMethod
      */
-    payMethod?: number;
+    PayMethod?: number;
     /**
      * Gets or sets the PayMethodName
      */
-    payMethodName?: string;
+    PayMethodName?: string;
     /**
      * Gets or sets the BillingCycle
      */
-    billingCycle?: string;
+    BillingCycle?: string;
     /**
      * Gets or sets the BillingCycle Description
      */
-    billingCycleDescription?: string;
+    BillingCycleDescription?: string;
     /**
      * Gets or sets the BillingStyle
      */
-    billingStyle?: string;
+    BillingStyle?: string;
     /**
      * Gets or sets the GLIncomeCode
      */
-    gLIncomeCode?: string;
+    GLIncomeCode?: string;
     /**
      * Gets or sets the PriceBillingText
      */
-    priceBillingText?: string;
+    PriceBillingText?: string;
     /**
      * Gets or sets the LastDayOfPeriod
      */
-    lastDayOfPeriod?: number;
+    LastDayOfPeriod?: number;
     /**
      * Gets or sets the BaseUsageItemID
      */
-    baseUsageItemID?: string;
+    BaseUsageItemID?: string;
     /**
      * Gets or sets the BaseUsageDescription
      */
-    baseUsageDescription?: string;
+    BaseUsageDescription?: string;
     /**
      * Gets or sets the OverageItemID
      */
-    overageItemID?: string;
+    OverageItemID?: string;
     /**
      * Gets or sets the OverageDescription
      */
-    overageDescription?: string;
-    overageRate?: number;
-    overagePriceLevel?: number;
+    OverageDescription?: string;
+    OverageRate?: number;
+    OveragePriceLevel?: number;
     /**
      * Gets or sets the include comments
      */
-    includes?: string;
+    Includes?: string;
     /**
      * Gets or sets the SpecialInstructions
      */
-    specialInstructions?: string;
+    SpecialInstructions?: string;
     /**
      * Gets or sets the RenewalNotes
      */
-    renewalNotes?: string;
+    RenewalNotes?: string;
     /**
      * Gets or sets the GeneralNotes
      */
-    generalNotes?: string;
+    GeneralNotes?: string;
     /**
      * Gets or sets the Tripsincluded (MaxVisits)
      */
-    tripsIncluded?: number;
+    TripsIncluded?: number;
     /**
      * Gets or sets the trips remaining (callsLeft)
      */
-    tripsRemaining?: number;
+    TripsRemaining?: number;
     /**
      * Gets or sets the additional trip charge (PerCallPrice)
      */
-    additionalTripCharge?: number;
+    AdditionalTripCharge?: number;
     /**
      * Gets or sets the response hours (ResponseTime)
      */
-    responseHours?: number;
+    ResponseHours?: number;
     /**
      * Gets or sets the Basis
      */
-    basisType?: string;
+    BasisType?: string;
     /**
      * Gets or sets the Basis
      */
-    basis?: TsiWebBasis;
+    Basis?: TsiWebBasis;
     /**
      * Gets or sets the Billto
      */
-    billTo?: TsiWebContractBillToAddress;
+    BillTo?: TsiWebContractBillToAddress;
     /**
      * Gets or sets the contract TemplateID
      */
-    templateID?: string;
+    TemplateID?: string;
     /**
      * Gets or sets the Duration period of a template
      */
-    durationPeriod?: string;
+    DurationPeriod?: string;
     /**
      * Gets or sets the Duration quantity of a template
      */
-    durationQuantity?: number;
+    DurationQuantity?: number;
     /**
      * Gets or sets the LastBillingDate
      */
-    lastBillingDate?: Date;
-    billedThruDate?: Date;
-    basePrice?: number;
-    useBasePrice?: boolean;
-    vendorContract?: string;
-    creditUtilizationTime?: boolean;
-    utilizeOverride?: boolean;
-    useLaborOverride?: boolean;
-    billingOverride?: boolean;
-    billable?: boolean;
-    chargeable?: boolean;
-    useDailyProration?: boolean;
-    timeLogRateDiscount?: number;
-    fixedHourlyRate?: number;
-    laborBillingType?: string;
-    laborBillingTypeDescription?: string;
-    basisTypeDescription?: string;
-    billingOption?: string;
-    defaultLogReason?: string;
-    billToAccountNumber?: number;
-    billToAddressType?: string;
-    alternateBillToAddressID?: number;
+    LastBillingDate?: Date;
+    BilledThruDate?: Date;
+    BasePrice?: number;
+    UseBasePrice?: boolean;
+    VendorContract?: string;
+    CreditUtilizationTime?: boolean;
+    UtilizeOverride?: boolean;
+    UseLaborOverride?: boolean;
+    BillingOverride?: boolean;
+    Billable?: boolean;
+    Chargeable?: boolean;
+    UseDailyProration?: boolean;
+    TimeLogRateDiscount?: number;
+    FixedHourlyRate?: number;
+    LaborBillingType?: string;
+    LaborBillingTypeDescription?: string;
+    BasisTypeDescription?: string;
+    BillingOption?: string;
+    DefaultLogReason?: string;
+    BillToAccountNumber?: number;
+    BillToAddressType?: string;
+    AlternateBillToAddressID?: number;
 }

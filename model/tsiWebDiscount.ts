@@ -12,9 +12,9 @@
 
 
 export interface TsiWebDiscount {
-    securityLevel?: number;
-    description?: string;
-    applyTo?: string;
-    maxPercentage?: number;
-    override?: boolean;
+    SecurityLevel?: number;
+    Description?: string;
+    ApplyTo?: string;
+    MaxPercentage?: number;
+    Override?: boolean;
 }

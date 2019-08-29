@@ -12,9 +12,9 @@
 
 
 export interface TsiWebServiceOrderProfile {
-    profile?: string;
-    id?: number;
-    value?: string;
-    isSystemEntry?: boolean;
-    isSystemDefault?: boolean;
+    Profile?: string;
+    Id?: number;
+    Value?: string;
+    IsSystemEntry?: boolean;
+    IsSystemDefault?: boolean;
 }

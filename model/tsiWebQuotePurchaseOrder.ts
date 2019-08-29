@@ -12,7 +12,7 @@
 
 
 export interface TsiWebQuotePurchaseOrder {
-    purchaseOrderNumber?: number;
-    vendorName?: string;
-    orderDate?: Date;
+    PurchaseOrderNumber?: number;
+    VendorName?: string;
+    OrderDate?: Date;
 }

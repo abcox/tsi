@@ -13,7 +13,7 @@ import { TsiWebCustomFieldDefinition } from './tsiWebCustomFieldDefinition';
 
 
 export interface TsiWebCustomFieldDefinitionResponse {
-    field?: TsiWebCustomFieldDefinition;
-    success?: boolean;
-    message?: string;
+    Field?: TsiWebCustomFieldDefinition;
+    Success?: boolean;
+    Message?: string;
 }

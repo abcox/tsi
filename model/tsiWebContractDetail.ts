@@ -20,33 +20,33 @@ export interface TsiWebContractDetail {
     /**
      * Gets or sets the ContractNumber
      */
-    contractNumber?: number;
+    ContractNumber?: number;
     /**
      * Gets or sets the ContractAccount
      */
-    contractAccount?: Array<TsiWebContractAccount>;
+    ContractAccount?: Array<TsiWebContractAccount>;
     /**
      * Gets or sets the Contract
      */
-    contract?: TsiWebContract;
+    Contract?: TsiWebContract;
     /**
      * Gets or sets Created by rep
      */
-    createdByRep?: TsiWebPerson;
+    CreatedByRep?: TsiWebPerson;
     /**
      * Gets or sets assigned tech
      */
-    assignedTechRep?: TsiWebPerson;
+    AssignedTechRep?: TsiWebPerson;
     /**
      * Gets or sets the rep to credit
      */
-    repToCredit?: TsiWebPerson;
+    RepToCredit?: TsiWebPerson;
     /**
      * Gets or sets the ItemsCovered
      */
-    itemsCovered?: Array<TsiWebItemCovered>;
+    ItemsCovered?: Array<TsiWebItemCovered>;
     /**
      * Gets or sets the CustomFields
      */
-    customFields?: Array<TsiWebCustomField>;
+    CustomFields?: Array<TsiWebCustomField>;
 }

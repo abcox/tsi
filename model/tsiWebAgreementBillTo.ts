@@ -15,14 +15,14 @@ export interface TsiWebAgreementBillTo {
     /**
      * Gets or sets the A/R Customer
      */
-    aRCustomer?: string;
-    name?: string;
-    address1?: string;
-    address2?: string;
-    city?: string;
-    state?: string;
-    postalCode?: string;
-    country?: string;
-    contactName?: string;
-    contactPhone?: string;
+    ARCustomer?: string;
+    Name?: string;
+    Address1?: string;
+    Address2?: string;
+    City?: string;
+    State?: string;
+    PostalCode?: string;
+    Country?: string;
+    ContactName?: string;
+    ContactPhone?: string;
 }

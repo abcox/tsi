@@ -12,8 +12,8 @@
 
 
 export interface TsiWebAssemblyItem {
-    priceBookNumber?: number;
-    itemId?: string;
-    quantity?: number;
-    printOnQuote?: boolean;
+    PriceBookNumber?: number;
+    ItemId?: string;
+    Quantity?: number;
+    PrintOnQuote?: boolean;
 }

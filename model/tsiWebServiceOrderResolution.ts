@@ -12,6 +12,6 @@
 
 
 export interface TsiWebServiceOrderResolution {
-    resolution?: string;
-    index?: number;
+    Resolution?: string;
+    Index?: number;
 }

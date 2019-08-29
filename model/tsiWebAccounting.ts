@@ -16,9 +16,9 @@ import { TsiWebShipTo } from './tsiWebShipTo';
 
 
 export interface TsiWebAccounting {
-    accountNumber?: number;
-    detail?: TsiWebAccountingDetail;
-    shipTos?: Array<TsiWebShipTo>;
-    billTos?: Array<TsiWebBillTo>;
-    payMethods?: Array<TsiWebPayMethod>;
+    AccountNumber?: number;
+    Detail?: TsiWebAccountingDetail;
+    ShipTos?: Array<TsiWebShipTo>;
+    BillTos?: Array<TsiWebBillTo>;
+    PayMethods?: Array<TsiWebPayMethod>;
 }

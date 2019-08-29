@@ -12,7 +12,7 @@
 
 
 export interface TsiWebJournalAction {
-    action: string;
-    isSystemEntry?: boolean;
-    weight?: number;
+    Action: string;
+    IsSystemEntry?: boolean;
+    Weight?: number;
 }

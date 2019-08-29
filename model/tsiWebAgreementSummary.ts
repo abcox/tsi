@@ -16,41 +16,41 @@ export interface TsiWebAgreementSummary {
     /**
      * Gets or sets the AgreementNumber
      */
-    agreementNumber?: number;
+    AgreementNumber?: number;
     /**
      * Gets or sets the  AccountName
      */
-    accountName?: string;
+    AccountName?: string;
     /**
      * Gets or sets the Account Primary phone
      */
-    primaryPhone?: string;
+    PrimaryPhone?: string;
     /**
      * Gets or sets the  Account Primary fax
      */
-    primaryFax?: string;
+    PrimaryFax?: string;
     /**
      * Gets or sets the Agreement
      */
-    agreement?: TsiWebAgreement;
+    Agreement?: TsiWebAgreement;
     /**
      * Gets or sets the count of Additional charges
      */
-    additionalCharges?: number;
+    AdditionalCharges?: number;
     /**
      * Gets or sets the count CoveredAssetTypes
      */
-    coveredAssetTypes?: number;
+    CoveredAssetTypes?: number;
     /**
      * Gets or sets the count CustomerAssetTypes
      */
-    customerAssetTypes?: number;
+    CustomerAssetTypes?: number;
     /**
      * Gets or sets the InternalComments
      */
-    internalComments?: string;
+    InternalComments?: string;
     /**
      * Gets or sets the count Invoices
      */
-    invoices?: number;
+    Invoices?: number;
 }

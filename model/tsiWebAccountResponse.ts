@@ -13,7 +13,7 @@ import { TsiWebAccountSummary } from './tsiWebAccountSummary';
 
 
 export interface TsiWebAccountResponse {
-    accountSummary?: TsiWebAccountSummary;
-    success?: boolean;
-    message?: string;
+    AccountSummary?: TsiWebAccountSummary;
+    Success?: boolean;
+    Message?: string;
 }

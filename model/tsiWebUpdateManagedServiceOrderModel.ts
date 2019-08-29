@@ -13,20 +13,20 @@ import { TsiWebServiceOrderWebLink } from './tsiWebServiceOrderWebLink';
 
 
 export interface TsiWebUpdateManagedServiceOrderModel {
-    clearExistingWebLinks?: boolean;
-    externalTicketId: string;
-    briefDescription?: string;
-    status?: string;
-    serviceOrderType?: string;
-    priority?: string;
-    workRequested?: string;
-    workPerformed?: string;
-    internalComments?: string;
-    contactNumber?: number;
-    dispatchBoardNumber?: number;
-    takenBy?: number;
-    technicianAssigned?: number;
-    note?: string;
-    alertUrl?: string;
-    webLinks?: Array<TsiWebServiceOrderWebLink>;
+    ClearExistingWebLinks?: boolean;
+    ExternalTicketId: string;
+    BriefDescription?: string;
+    Status?: string;
+    ServiceOrderType?: string;
+    Priority?: string;
+    WorkRequested?: string;
+    WorkPerformed?: string;
+    InternalComments?: string;
+    ContactNumber?: number;
+    DispatchBoardNumber?: number;
+    TakenBy?: number;
+    TechnicianAssigned?: number;
+    Note?: string;
+    AlertUrl?: string;
+    WebLinks?: Array<TsiWebServiceOrderWebLink>;
 }

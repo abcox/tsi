@@ -12,28 +12,28 @@
 
 
 export interface TsiWebServiceOrderExpenseSearchResult {
-    expenseNumber?: number;
-    expenseAmount?: number;
-    repNumber?: number;
-    repName?: string;
-    comments?: string;
-    billable?: boolean;
-    odometerStart?: number;
-    odometerEnd?: number;
-    distance?: number;
-    expenseTypeNumber?: number;
-    expenseTypeDescription?: string;
-    acceptanceStatus?: string;
-    rejectedReason?: string;
-    reviewedBy?: number;
-    reviewedByName?: string;
-    reimbursable?: boolean;
-    expenseDateTime?: Date;
-    expensePaymentTypeNumber?: number;
-    expensePaymentDescription?: string;
-    serviceOrderNumber?: number;
-    serviceOrderBreifDescription?: string;
-    status?: string;
-    accountNumber?: number;
-    accountName?: string;
+    ExpenseNumber?: number;
+    ExpenseAmount?: number;
+    RepNumber?: number;
+    RepName?: string;
+    Comments?: string;
+    Billable?: boolean;
+    OdometerStart?: number;
+    OdometerEnd?: number;
+    Distance?: number;
+    ExpenseTypeNumber?: number;
+    ExpenseTypeDescription?: string;
+    AcceptanceStatus?: string;
+    RejectedReason?: string;
+    ReviewedBy?: number;
+    ReviewedByName?: string;
+    Reimbursable?: boolean;
+    ExpenseDateTime?: Date;
+    ExpensePaymentTypeNumber?: number;
+    ExpensePaymentDescription?: string;
+    ServiceOrderNumber?: number;
+    ServiceOrderBreifDescription?: string;
+    Status?: string;
+    AccountNumber?: number;
+    AccountName?: string;
 }

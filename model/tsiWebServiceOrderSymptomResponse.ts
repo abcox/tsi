@@ -13,7 +13,7 @@ import { TsiWebServiceOrderSymptom } from './tsiWebServiceOrderSymptom';
 
 
 export interface TsiWebServiceOrderSymptomResponse {
-    serviceOrderSymptoms?: Array<TsiWebServiceOrderSymptom>;
-    success?: boolean;
-    message?: string;
+    ServiceOrderSymptoms?: Array<TsiWebServiceOrderSymptom>;
+    Success?: boolean;
+    Message?: string;
 }

@@ -13,10 +13,10 @@ import { TsiWebServiceOrderSubContractor } from './tsiWebServiceOrderSubContract
 
 
 export interface TsiWebServiceOrderSubContractorsResponse {
-    subContractors?: Array<TsiWebServiceOrderSubContractor>;
-    pageSize?: number;
-    nextRow?: number;
-    totalCount?: number;
-    success?: boolean;
-    message?: string;
+    SubContractors?: Array<TsiWebServiceOrderSubContractor>;
+    PageSize?: number;
+    NextRow?: number;
+    TotalCount?: number;
+    Success?: boolean;
+    Message?: string;
 }

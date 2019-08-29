@@ -13,6 +13,6 @@ import { TsiWebPriceBookItem } from './tsiWebPriceBookItem';
 
 
 export interface TsiWebUpdatePriceBookItemModel {
-    itemId: string;
-    item: TsiWebPriceBookItem;
+    ItemId: string;
+    Item: TsiWebPriceBookItem;
 }

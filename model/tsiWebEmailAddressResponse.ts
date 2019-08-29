@@ -13,7 +13,7 @@ import { TsiWebEmailAddress } from './tsiWebEmailAddress';
 
 
 export interface TsiWebEmailAddressResponse {
-    email?: TsiWebEmailAddress;
-    success?: boolean;
-    message?: string;
+    Email?: TsiWebEmailAddress;
+    Success?: boolean;
+    Message?: string;
 }

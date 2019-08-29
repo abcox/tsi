@@ -12,12 +12,12 @@
 
 
 export interface TsiWebAccountJournalEntryModel {
-    contactNumber?: number;
-    repNumber?: number;
-    topic?: string;
-    action?: string;
-    note?: string;
-    dateCreated?: Date;
-    startTime?: Date;
-    endTime?: Date;
+    ContactNumber?: number;
+    RepNumber?: number;
+    Topic?: string;
+    Action?: string;
+    Note?: string;
+    DateCreated?: Date;
+    StartTime?: Date;
+    EndTime?: Date;
 }

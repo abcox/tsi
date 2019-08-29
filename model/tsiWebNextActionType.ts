@@ -12,8 +12,8 @@
 
 
 export interface TsiWebNextActionType {
-    id?: number;
-    value?: string;
-    isSystemEntry?: boolean;
-    isSystemDefault?: boolean;
+    Id?: number;
+    Value?: string;
+    IsSystemEntry?: boolean;
+    IsSystemDefault?: boolean;
 }

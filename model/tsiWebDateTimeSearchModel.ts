@@ -12,6 +12,6 @@
 
 
 export interface TsiWebDateTimeSearchModel {
-    criteria?: string;
-    matchType?: string;
+    Criteria?: string;
+    MatchType?: string;
 }

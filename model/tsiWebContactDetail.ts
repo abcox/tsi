@@ -19,17 +19,17 @@ import { TsiWebPhoneNumber } from './tsiWebPhoneNumber';
 
 
 export interface TsiWebContactDetail {
-    contactNumber?: number;
-    contact?: TsiWebContact;
-    phoneNumbers?: Array<TsiWebPhoneNumber>;
-    emailAddresses?: Array<TsiWebEmailAddress>;
-    groups?: Array<TsiWebAssignedMarketingGroup>;
-    profiles?: Array<TsiWebAssignedMarketingProfile>;
-    account?: TsiWebAccount;
-    customFields?: Array<TsiWebCustomField>;
-    isPrimaryContact?: boolean;
-    journalEntries?: number;
-    openOpportunities?: number;
-    openServiceOrders?: number;
-    pastDueTasks?: number;
+    ContactNumber?: number;
+    Contact?: TsiWebContact;
+    PhoneNumbers?: Array<TsiWebPhoneNumber>;
+    EmailAddresses?: Array<TsiWebEmailAddress>;
+    Groups?: Array<TsiWebAssignedMarketingGroup>;
+    Profiles?: Array<TsiWebAssignedMarketingProfile>;
+    Account?: TsiWebAccount;
+    CustomFields?: Array<TsiWebCustomField>;
+    IsPrimaryContact?: boolean;
+    JournalEntries?: number;
+    OpenOpportunities?: number;
+    OpenServiceOrders?: number;
+    PastDueTasks?: number;
 }

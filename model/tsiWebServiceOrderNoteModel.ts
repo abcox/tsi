@@ -12,9 +12,9 @@
 
 
 export interface TsiWebServiceOrderNoteModel {
-    topic?: string;
-    note?: string;
-    dateCreated?: Date;
-    startTime?: Date;
-    repNumber?: number;
+    Topic?: string;
+    Note?: string;
+    DateCreated?: Date;
+    StartTime?: Date;
+    RepNumber?: number;
 }

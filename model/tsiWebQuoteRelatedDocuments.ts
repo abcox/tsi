@@ -14,6 +14,6 @@ import { TsiWebQuoteServiceOrder } from './tsiWebQuoteServiceOrder';
 
 
 export interface TsiWebQuoteRelatedDocuments {
-    serviceOrders?: Array<TsiWebQuoteServiceOrder>;
-    purchaseOrders?: Array<TsiWebQuotePurchaseOrder>;
+    ServiceOrders?: Array<TsiWebQuoteServiceOrder>;
+    PurchaseOrders?: Array<TsiWebQuotePurchaseOrder>;
 }

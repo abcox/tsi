@@ -12,15 +12,15 @@
 
 
 export interface TsiWebTaskLibrary {
-    taskLibraryKeyNumber?: number;
-    subject?: string;
-    location?: string;
-    taskType?: string;
-    taskAction?: string;
-    priorityNumber?: number;
-    priorityText?: string;
-    taskComment?: string;
-    resourceName?: string;
-    duration?: number;
-    durationInterval?: string;
+    TaskLibraryKeyNumber?: number;
+    Subject?: string;
+    Location?: string;
+    TaskType?: string;
+    TaskAction?: string;
+    PriorityNumber?: number;
+    PriorityText?: string;
+    TaskComment?: string;
+    ResourceName?: string;
+    Duration?: number;
+    DurationInterval?: string;
 }

@@ -12,9 +12,9 @@
 
 
 export interface TsiWebSearchCriteria {
-    searchType?: string;
-    matchType?: string;
-    criteria?: string;
-    categoryName?: string;
-    customFieldName?: string;
+    SearchType?: string;
+    MatchType?: string;
+    Criteria?: string;
+    CategoryName?: string;
+    CustomFieldName?: string;
 }

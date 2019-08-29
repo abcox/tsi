@@ -12,6 +12,6 @@
 
 
 export interface TsiWebAssignSystemModel {
-    system?: string;
-    isDefault?: boolean;
+    System?: string;
+    IsDefault?: boolean;
 }

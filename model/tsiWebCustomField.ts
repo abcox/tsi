@@ -12,12 +12,12 @@
 
 
 export interface TsiWebCustomField {
-    category?: string;
-    customFieldId?: number;
-    label?: string;
-    description?: string;
+    Category?: string;
+    CustomFieldId?: number;
+    Label?: string;
+    Description?: string;
     /**
      * Value of the custom fields
      */
-    value?: string;
+    Value?: string;
 }

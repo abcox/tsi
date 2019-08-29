@@ -12,9 +12,9 @@
 
 
 export interface TsiWebMarketingGroup {
-    group?: string;
-    description?: string;
-    purpose?: string;
-    allowDelete?: boolean;
-    keepUntilDate?: Date;
+    Group?: string;
+    Description?: string;
+    Purpose?: string;
+    AllowDelete?: boolean;
+    KeepUntilDate?: Date;
 }

@@ -15,37 +15,37 @@ export interface TsiWebAgreementCoveredAssetType {
     /**
      * Gets or sets AssetTypeId
      */
-    coveredAssetNumber?: number;
+    CoveredAssetNumber?: number;
     /**
      * Gets or sets AssetType
      */
-    assetType?: string;
+    AssetType?: string;
     /**
      * Gets or sets SpecialItemId
      */
-    specialItemId?: string;
+    SpecialItemId?: string;
     /**
      * Gets or sets the ItemDescription
      */
-    itemDescription?: string;
+    ItemDescription?: string;
     /**
      * Gets or sets the Price
      */
-    price?: number;
+    Price?: number;
     /**
      * Gets or sets the PriceLevel
      */
-    priceLevel?: number;
+    PriceLevel?: number;
     /**
      * Gets or sets the PriceLevelDescription
      */
-    priceLevelDescription?: string;
+    PriceLevelDescription?: string;
     /**
      * Gets or sets the DateAdded
      */
-    dateAdded?: Date;
+    DateAdded?: Date;
     /**
      * Gets or sets the UseFlatPrice
      */
-    useFlatPrice?: boolean;
+    UseFlatPrice?: boolean;
 }

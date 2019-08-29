@@ -13,7 +13,7 @@ import { TsiWebConversionItem } from './tsiWebConversionItem';
 
 
 export interface TsiWebAddQuoteToExistingServiceOrderModel {
-    quoteToSOType: string;
-    itemsToConvert?: Array<TsiWebConversionItem>;
-    projectPhaseNumber?: number;
+    QuoteToSOType: string;
+    ItemsToConvert?: Array<TsiWebConversionItem>;
+    ProjectPhaseNumber?: number;
 }

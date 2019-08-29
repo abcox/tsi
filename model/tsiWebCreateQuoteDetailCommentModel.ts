@@ -12,7 +12,7 @@
 
 
 export interface TsiWebCreateQuoteDetailCommentModel {
-    lineNumber?: number;
-    comment?: string;
-    printOnQuote?: boolean;
+    LineNumber?: number;
+    Comment?: string;
+    PrintOnQuote?: boolean;
 }

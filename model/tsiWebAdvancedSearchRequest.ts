@@ -13,7 +13,7 @@ import { TsiWebSearchCriteria } from './tsiWebSearchCriteria';
 
 
 export interface TsiWebAdvancedSearchRequest {
-    criteria?: Array<TsiWebSearchCriteria>;
-    pageSize?: number;
-    startRow?: number;
+    Criteria?: Array<TsiWebSearchCriteria>;
+    PageSize?: number;
+    StartRow?: number;
 }

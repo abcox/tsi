@@ -15,17 +15,17 @@ export interface TsiWebPhoneNumber {
     /**
      * Gets or sets the identifier.
      */
-    phoneNumberId?: number;
+    PhoneNumberId?: number;
     /**
      * Gets or sets the phone number.
      */
-    number: string;
+    Number: string;
     /**
      * Gets or sets the type or extenstion for the phone number.
      */
-    location?: string;
+    Location?: string;
     /**
      * Gets or sets a value indicating whether this phone number is primary.
      */
-    isPrimary?: boolean;
+    IsPrimary?: boolean;
 }

@@ -13,10 +13,10 @@ import { TsiWebTimeSlipSummary } from './tsiWebTimeSlipSummary';
 
 
 export interface TsiWebSearchTimeSlipResponse {
-    timeSlips?: Array<TsiWebTimeSlipSummary>;
-    pageSize?: number;
-    nextRow?: number;
-    totalCount?: number;
-    success?: boolean;
-    message?: string;
+    TimeSlips?: Array<TsiWebTimeSlipSummary>;
+    PageSize?: number;
+    NextRow?: number;
+    TotalCount?: number;
+    Success?: boolean;
+    Message?: string;
 }

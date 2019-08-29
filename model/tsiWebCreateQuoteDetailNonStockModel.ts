@@ -12,24 +12,24 @@
 
 
 export interface TsiWebCreateQuoteDetailNonStockModel {
-    lineNumber?: number;
-    projectPhaseNumber?: number;
-    itemId?: string;
-    itemDescription?: string;
-    unitOfMeasure?: string;
-    type?: string;
-    subjectToSingleItemTax?: boolean;
-    sellingPrice?: number;
-    manufacturerListPrice?: number;
-    cost?: number;
-    installLocation?: string;
-    orderByDate?: Date;
-    taxable?: boolean;
-    subjectToProviderTax?: boolean;
-    printOnInvoice?: boolean;
-    printOnQuote?: boolean;
-    itemCanBeDiscounted?: boolean;
-    useThisCostWhenOrdering?: boolean;
-    quantity?: number;
-    isSerialized?: boolean;
+    LineNumber?: number;
+    ProjectPhaseNumber?: number;
+    ItemId?: string;
+    ItemDescription?: string;
+    UnitOfMeasure?: string;
+    Type?: string;
+    SubjectToSingleItemTax?: boolean;
+    SellingPrice?: number;
+    ManufacturerListPrice?: number;
+    Cost?: number;
+    InstallLocation?: string;
+    OrderByDate?: Date;
+    Taxable?: boolean;
+    SubjectToProviderTax?: boolean;
+    PrintOnInvoice?: boolean;
+    PrintOnQuote?: boolean;
+    ItemCanBeDiscounted?: boolean;
+    UseThisCostWhenOrdering?: boolean;
+    Quantity?: number;
+    IsSerialized?: boolean;
 }

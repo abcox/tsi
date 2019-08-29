@@ -13,10 +13,10 @@ import { TsiWebServiceOrderNote } from './tsiWebServiceOrderNote';
 
 
 export interface TsiWebServiceOrderNotesResponse {
-    notes?: Array<TsiWebServiceOrderNote>;
-    pageSize?: number;
-    nextRow?: number;
-    totalCount?: number;
-    success?: boolean;
-    message?: string;
+    Notes?: Array<TsiWebServiceOrderNote>;
+    PageSize?: number;
+    NextRow?: number;
+    TotalCount?: number;
+    Success?: boolean;
+    Message?: string;
 }

@@ -12,9 +12,9 @@
 
 
 export interface TsiWebProductInformation {
-    hasValidLicense?: boolean;
-    isUsingNamedUserLicense?: boolean;
-    isTigerpawOne?: boolean;
-    isArchivedDatabase?: boolean;
-    databaseVersion?: string;
+    HasValidLicense?: boolean;
+    IsUsingNamedUserLicense?: boolean;
+    IsTigerpawOne?: boolean;
+    IsArchivedDatabase?: boolean;
+    DatabaseVersion?: string;
 }

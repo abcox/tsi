@@ -12,7 +12,7 @@
 
 
 export interface TsiWebCreateTaskCheckListModel {
-    itemText?: string;
-    ordinalPosition?: number;
-    completed?: boolean;
+    ItemText?: string;
+    OrdinalPosition?: number;
+    Completed?: boolean;
 }

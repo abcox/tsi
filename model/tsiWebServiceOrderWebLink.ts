@@ -12,6 +12,6 @@
 
 
 export interface TsiWebServiceOrderWebLink {
-    url?: string;
-    description?: string;
+    Url?: string;
+    Description?: string;
 }

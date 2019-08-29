@@ -12,6 +12,6 @@
 
 
 export interface TsiWebUpdateEntryModel {
-    existingValue: string;
-    newValue: string;
+    ExistingValue: string;
+    NewValue: string;
 }

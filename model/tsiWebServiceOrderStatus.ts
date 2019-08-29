@@ -12,11 +12,11 @@
 
 
 export interface TsiWebServiceOrderStatus {
-    status?: string;
-    ticketChange?: string;
+    Status?: string;
+    TicketChange?: string;
     IVRID?: number;
-    systemEntry?: boolean;
-    systemDefault?: boolean;
-    rank?: number;
-    color?: number;
+    SystemEntry?: boolean;
+    SystemDefault?: boolean;
+    Rank?: number;
+    Color?: number;
 }

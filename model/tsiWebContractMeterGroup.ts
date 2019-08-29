@@ -16,60 +16,60 @@ export interface TsiWebContractMeterGroup {
     /**
      * Gets or sets the contract multiple meter group pricing key number
      */
-    contractMultipleMeterGroupPricingKeyNumber?: number;
+    ContractMultipleMeterGroupPricingKeyNumber?: number;
     /**
      * Gets or sets the contract meter group
      */
-    contractMeterGroupKeyNumber?: number;
+    ContractMeterGroupKeyNumber?: number;
     /**
      * Gets or sets the contract meter group name
      */
-    contractMeterGroupName?: string;
+    ContractMeterGroupName?: string;
     /**
      * Gets or sets the contract meter group billing style
      */
-    billingStyle?: string;
+    BillingStyle?: string;
     /**
      * Gets or sets the StartDate
      */
-    startDate?: Date;
+    StartDate?: Date;
     /**
      * Gets or sets the EndDate
      */
-    endDate?: Date;
+    EndDate?: Date;
     /**
      * Gets or sets the FlatRate
      */
-    flatRate?: number;
+    FlatRate?: number;
     /**
      * Gets or sets the ItemID
      */
-    itemID?: string;
+    ItemID?: string;
     /**
      * Gets or sets the LastBilledUsage
      */
-    lastBilledUsage?: number;
+    LastBilledUsage?: number;
     /**
      * Gets or sets the LastBilledDate
      */
-    lastBilledDate?: Date;
+    LastBilledDate?: Date;
     /**
      * Gets or sets the NextBillingDate
      */
-    nextBillingDate?: Date;
+    NextBillingDate?: Date;
     /**
      * Gets or sets the TotalUsageBilled
      */
-    totalUsageBilled?: number;
-    lockPricing?: boolean;
-    priceLockingEndDate?: Date;
-    usePriceEscalation?: boolean;
-    escalationPercent?: number;
-    escalationPeriod?: number;
-    nextPriceEscalationDate?: Date;
-    basePrice?: number;
+    TotalUsageBilled?: number;
+    LockPricing?: boolean;
+    PriceLockingEndDate?: Date;
+    UsePriceEscalation?: boolean;
+    EscalationPercent?: number;
+    EscalationPeriod?: number;
+    NextPriceEscalationDate?: Date;
+    BasePrice?: number;
     /**
      * Gets or sets the ContractMeterGroupBillings
      */
-    contractMeterGroupBillings?: Array<TsiWebContractMeterGroupBilling>;
+    ContractMeterGroupBillings?: Array<TsiWebContractMeterGroupBilling>;
 }

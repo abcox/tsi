@@ -13,10 +13,10 @@ import { TsiWebContractSummary } from './tsiWebContractSummary';
 
 
 export interface TsiWebSearchContractResponse {
-    contracts?: Array<TsiWebContractSummary>;
-    pageSize?: number;
-    nextRow?: number;
-    totalCount?: number;
-    success?: boolean;
-    message?: string;
+    Contracts?: Array<TsiWebContractSummary>;
+    PageSize?: number;
+    NextRow?: number;
+    TotalCount?: number;
+    Success?: boolean;
+    Message?: string;
 }

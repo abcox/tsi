@@ -12,12 +12,12 @@
 
 
 export interface TsiWebCustomFieldDefinition {
-    customFieldDefinitionId?: number;
-    customFieldLabel: string;
-    description: string;
-    ordinalPosition?: number;
-    maxLength?: number;
-    minValue?: number;
-    maxValue?: number;
-    constraints?: Array<string>;
+    CustomFieldDefinitionId?: number;
+    CustomFieldLabel: string;
+    Description: string;
+    OrdinalPosition?: number;
+    MaxLength?: number;
+    MinValue?: number;
+    MaxValue?: number;
+    Constraints?: Array<string>;
 }

@@ -13,10 +13,10 @@ import { TsiWebServiceOrderTimeLog } from './tsiWebServiceOrderTimeLog';
 
 
 export interface TsiWebServiceOrderTimeLogsResponse {
-    timeLogs?: Array<TsiWebServiceOrderTimeLog>;
-    pageSize?: number;
-    nextRow?: number;
-    totalCount?: number;
-    success?: boolean;
-    message?: string;
+    TimeLogs?: Array<TsiWebServiceOrderTimeLog>;
+    PageSize?: number;
+    NextRow?: number;
+    TotalCount?: number;
+    Success?: boolean;
+    Message?: string;
 }

@@ -12,7 +12,7 @@
 
 
 export interface TsiWebQuoteServiceOrder {
-    serviceOrderNumber?: number;
-    briefDescription?: string;
-    dateCreated?: Date;
+    ServiceOrderNumber?: number;
+    BriefDescription?: string;
+    DateCreated?: Date;
 }

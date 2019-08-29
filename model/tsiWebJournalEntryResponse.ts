@@ -13,7 +13,7 @@ import { TsiWebJournalEntry } from './tsiWebJournalEntry';
 
 
 export interface TsiWebJournalEntryResponse {
-    journalEntry?: TsiWebJournalEntry;
-    success?: boolean;
-    message?: string;
+    JournalEntry?: TsiWebJournalEntry;
+    Success?: boolean;
+    Message?: string;
 }

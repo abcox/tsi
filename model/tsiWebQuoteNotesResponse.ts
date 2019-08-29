@@ -13,10 +13,10 @@ import { TsiWebQuoteNoteSummary } from './tsiWebQuoteNoteSummary';
 
 
 export interface TsiWebQuoteNotesResponse {
-    notes?: Array<TsiWebQuoteNoteSummary>;
-    pageSize?: number;
-    nextRow?: number;
-    totalCount?: number;
-    success?: boolean;
-    message?: string;
+    Notes?: Array<TsiWebQuoteNoteSummary>;
+    PageSize?: number;
+    NextRow?: number;
+    TotalCount?: number;
+    Success?: boolean;
+    Message?: string;
 }

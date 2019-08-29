@@ -13,7 +13,7 @@ import { TsiWebQuoteNoteSummary } from './tsiWebQuoteNoteSummary';
 
 
 export interface TsiWebQuoteNoteResponse {
-    note?: TsiWebQuoteNoteSummary;
-    success?: boolean;
-    message?: string;
+    Note?: TsiWebQuoteNoteSummary;
+    Success?: boolean;
+    Message?: string;
 }

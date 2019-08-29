@@ -12,16 +12,16 @@
 
 
 export interface TsiWebPurchaseOrderLineItemReceipt {
-    purchaseOrderRecieptNumber?: number;
-    quantityReceived?: number;
-    receivedDate?: Date;
-    receivedByRepNumber?: number;
-    receivedByRepName?: string;
-    shipper?: string;
-    shipperTrackingNumber?: string;
-    posted?: boolean;
-    location?: string;
-    itemId?: string;
-    postedDate?: Date;
-    bin?: string;
+    PurchaseOrderRecieptNumber?: number;
+    QuantityReceived?: number;
+    ReceivedDate?: Date;
+    ReceivedByRepNumber?: number;
+    ReceivedByRepName?: string;
+    Shipper?: string;
+    ShipperTrackingNumber?: string;
+    Posted?: boolean;
+    Location?: string;
+    ItemId?: string;
+    PostedDate?: Date;
+    Bin?: string;
 }

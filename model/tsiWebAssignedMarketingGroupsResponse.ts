@@ -13,7 +13,7 @@ import { TsiWebAssignedMarketingGroup } from './tsiWebAssignedMarketingGroup';
 
 
 export interface TsiWebAssignedMarketingGroupsResponse {
-    marketingGroups?: Array<TsiWebAssignedMarketingGroup>;
-    success?: boolean;
-    message?: string;
+    MarketingGroups?: Array<TsiWebAssignedMarketingGroup>;
+    Success?: boolean;
+    Message?: string;
 }

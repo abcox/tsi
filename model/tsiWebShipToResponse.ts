@@ -13,7 +13,7 @@ import { TsiWebShipTo } from './tsiWebShipTo';
 
 
 export interface TsiWebShipToResponse {
-    shipTo?: TsiWebShipTo;
-    success?: boolean;
-    message?: string;
+    ShipTo?: TsiWebShipTo;
+    Success?: boolean;
+    Message?: string;
 }

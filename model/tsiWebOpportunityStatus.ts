@@ -12,8 +12,8 @@
 
 
 export interface TsiWebOpportunityStatus {
-    opportunityStatusId?: number;
-    status?: string;
-    stateOfOpportunity?: number;
-    systemEntry?: boolean;
+    OpportunityStatusId?: number;
+    Status?: string;
+    StateOfOpportunity?: number;
+    SystemEntry?: boolean;
 }

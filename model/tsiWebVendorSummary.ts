@@ -12,10 +12,10 @@
 
 
 export interface TsiWebVendorSummary {
-    accountNumber?: number;
-    vendor?: string;
-    vendorPartNumber?: string;
-    cost?: number;
-    leadDays?: number;
-    isPrimary?: boolean;
+    AccountNumber?: number;
+    Vendor?: string;
+    VendorPartNumber?: string;
+    Cost?: number;
+    LeadDays?: number;
+    IsPrimary?: boolean;
 }

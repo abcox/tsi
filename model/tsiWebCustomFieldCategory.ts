@@ -13,8 +13,8 @@ import { TsiWebCustomFieldDefinition } from './tsiWebCustomFieldDefinition';
 
 
 export interface TsiWebCustomFieldCategory {
-    categoryName?: string;
-    availableInGui?: boolean;
-    systemEntry?: boolean;
-    fields?: Array<TsiWebCustomFieldDefinition>;
+    CategoryName?: string;
+    AvailableInGui?: boolean;
+    SystemEntry?: boolean;
+    Fields?: Array<TsiWebCustomFieldDefinition>;
 }

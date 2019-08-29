@@ -12,6 +12,6 @@
 
 
 export interface TsiWebRepModel {
-    scheduledFor?: boolean;
-    scheduledBy?: boolean;
+    ScheduledFor?: boolean;
+    ScheduledBy?: boolean;
 }

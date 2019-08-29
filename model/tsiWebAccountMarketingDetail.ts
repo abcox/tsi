@@ -15,21 +15,21 @@ export interface TsiWebAccountMarketingDetail {
     /**
      * Gets or sets the account source
      */
-    source?: string;
+    Source?: string;
     /**
      * Gets or sets the account source changed date.
      */
-    sourceChangedDate?: Date;
+    SourceChangedDate?: Date;
     /**
      * Gets or sets the Marketing memo.
      */
-    memo?: string;
+    Memo?: string;
     /**
      * Gets or sets the sales volume.
      */
-    salesVolume?: number;
+    SalesVolume?: number;
     /**
      * Gets or sets the number of employees.
      */
-    numberOfEmployees?: string;
+    NumberOfEmployees?: string;
 }

@@ -14,7 +14,7 @@ import { TsiWebPhoneNumber } from './tsiWebPhoneNumber';
 
 
 export interface TsiWebCreateAccountModel {
-    account: TsiWebAccount;
-    primaryPhoneNumber?: TsiWebPhoneNumber;
-    accountSource?: string;
+    Account: TsiWebAccount;
+    PrimaryPhoneNumber?: TsiWebPhoneNumber;
+    AccountSource?: string;
 }

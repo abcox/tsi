@@ -15,17 +15,17 @@ export interface TsiWebMeterModel {
     /**
      * Gets or sets the contract meter name
      */
-    contractMeterName?: string;
+    ContractMeterName?: string;
     /**
      * Gets or sets the Device ID
      */
-    deviceId?: string;
+    DeviceId?: string;
     /**
      * Gets or sets the CurrentMeterReading
      */
-    currentMeterReading?: number;
+    CurrentMeterReading?: number;
     /**
      * Gets or sets the DateRead
      */
-    dateRead?: Date;
+    DateRead?: Date;
 }

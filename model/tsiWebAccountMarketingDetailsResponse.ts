@@ -13,7 +13,7 @@ import { TsiWebAccountMarketingDetails } from './tsiWebAccountMarketingDetails';
 
 
 export interface TsiWebAccountMarketingDetailsResponse {
-    marketingDetails?: TsiWebAccountMarketingDetails;
-    success?: boolean;
-    message?: string;
+    MarketingDetails?: TsiWebAccountMarketingDetails;
+    Success?: boolean;
+    Message?: string;
 }

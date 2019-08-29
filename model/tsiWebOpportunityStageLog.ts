@@ -12,12 +12,12 @@
 
 
 export interface TsiWebOpportunityStageLog {
-    opportunityStageLogId?: number;
-    nextStep?: string;
-    stageChangedTo?: string;
-    stageChangedByRep?: number;
-    expectedAmount?: number;
-    probablilityPercent?: number;
-    stageChangedDate?: Date;
-    dateLeftThisStage?: Date;
+    OpportunityStageLogId?: number;
+    NextStep?: string;
+    StageChangedTo?: string;
+    StageChangedByRep?: number;
+    ExpectedAmount?: number;
+    ProbablilityPercent?: number;
+    StageChangedDate?: Date;
+    DateLeftThisStage?: Date;
 }

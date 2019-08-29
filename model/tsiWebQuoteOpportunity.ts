@@ -12,11 +12,11 @@
 
 
 export interface TsiWebQuoteOpportunity {
-    name?: string;
-    status?: string;
-    expectedAmount?: number;
-    notes?: string;
-    estimatedCloseDate?: Date;
-    stageDescription?: string;
-    probabilityPercent?: number;
+    Name?: string;
+    Status?: string;
+    ExpectedAmount?: number;
+    Notes?: string;
+    EstimatedCloseDate?: Date;
+    StageDescription?: string;
+    ProbabilityPercent?: number;
 }

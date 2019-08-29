@@ -13,10 +13,10 @@ import { TsiWebContactSummary } from './tsiWebContactSummary';
 
 
 export interface TsiWebSearchContactResponse {
-    contacts?: Array<TsiWebContactSummary>;
-    pageSize?: number;
-    nextRow?: number;
-    totalCount?: number;
-    success?: boolean;
-    message?: string;
+    Contacts?: Array<TsiWebContactSummary>;
+    PageSize?: number;
+    NextRow?: number;
+    TotalCount?: number;
+    Success?: boolean;
+    Message?: string;
 }

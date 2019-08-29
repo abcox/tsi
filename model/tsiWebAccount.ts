@@ -15,107 +15,107 @@ export interface TsiWebAccount {
     /**
      * Gets or sets the name of the account.
      */
-    name: string;
+    Name: string;
     /**
      * Gets or sets the account identifier.
      */
-    accountId?: string;
+    AccountId?: string;
     /**
      * Gets or sets address line 1.
      */
-    address1?: string;
+    Address1?: string;
     /**
      * Gets or sets address line 2.
      */
-    address2?: string;
+    Address2?: string;
     /**
      * Gets or sets the city.
      */
-    city?: string;
+    City?: string;
     /**
      * Gets or sets the state.
      */
-    state?: string;
+    State?: string;
     /**
      * Gets or sets the postal code.
      */
-    postalCode?: string;
+    PostalCode?: string;
     /**
      * Gets or sets the country.
      */
-    country?: string;
+    Country?: string;
     /**
      * Gets or sets the type of the account.
      */
-    accountType: string;
+    AccountType: string;
     /**
      * Gets or sets the account status.
      */
-    status: string;
+    Status: string;
     /**
      * Gets or sets the hot note.
      */
-    hotNote?: string;
+    HotNote?: string;
     /**
      * Gets or sets the directions to location.
      */
-    directionsToLocation?: string;
+    DirectionsToLocation?: string;
     /**
      * Gets or sets the special instructions for the AccountDetails.
      */
-    specialInstructions?: string;
+    SpecialInstructions?: string;
     /**
      * Gets or sets the special instructions for quotes.
      */
-    quoteSpecialInstructions?: string;
+    QuoteSpecialInstructions?: string;
     /**
      * Gets or sets the status label action.
      */
-    statusLabelAction?: string;
+    StatusLabelAction?: string;
     /**
      * Gets or sets the url 1.
      */
-    uRL1?: string;
+    URL1?: string;
     /**
      * Gets or sets the url1 description.
      */
-    uRL1Description?: string;
+    URL1Description?: string;
     /**
      * Gets or sets the url2.
      */
-    uRL2?: string;
+    URL2?: string;
     /**
      * Gets or sets the url2 description.
      */
-    uRL2Description?: string;
+    URL2Description?: string;
     /**
      * Gets or sets the initial contact date.
      */
-    initialContact?: Date;
+    InitialContact?: Date;
     /**
      * Gets or sets the status label action identifier.
      */
-    statusLabelActionId?: number;
+    StatusLabelActionId?: number;
     /**
      * Gets or sets the rep number.
      */
-    repNumber?: number;
+    RepNumber?: number;
     /**
      * Gets or sets the primary contact.
      */
-    primaryContactNumber?: number;
+    PrimaryContactNumber?: number;
     /**
      * Gets a value indicating whether this account is vendor.
      */
-    isVendor?: boolean;
+    IsVendor?: boolean;
     /**
      * Gets a value indicating whether this account is subcontractor.
      */
-    isSubcontractor?: boolean;
+    IsSubcontractor?: boolean;
     /**
      * Gets a value indicating whether or not email should be used to contact the account.
      */
-    doNotEmail?: boolean;
-    isOwnedByPublicRep?: boolean;
-    canReassignRepsAccount?: boolean;
+    DoNotEmail?: boolean;
+    IsOwnedByPublicRep?: boolean;
+    CanReassignRepsAccount?: boolean;
 }

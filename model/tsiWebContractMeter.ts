@@ -15,73 +15,73 @@ export interface TsiWebContractMeter {
     /**
      * Gets or sets the contract multiple meter usage key number
      */
-    contractMultipleMeterUsageKeyNumber?: number;
+    ContractMultipleMeterUsageKeyNumber?: number;
     /**
      * Gets or sets the Contract detail key number
      */
-    contractDetailKeyNumber?: number;
+    ContractDetailKeyNumber?: number;
     /**
      * Gets or sets the contract Meter key number
      */
-    contractMeterKeyNumber?: number;
+    ContractMeterKeyNumber?: number;
     /**
      * Gets or sets the contract meter name
      */
-    contractMeterName?: string;
+    ContractMeterName?: string;
     /**
      * Gets or sets the contract meter group
      */
-    contractMeterGroupKeyNumber?: number;
+    ContractMeterGroupKeyNumber?: number;
     /**
      * Gets or sets the contract meter group name
      */
-    contractMeterGroupName?: string;
+    ContractMeterGroupName?: string;
     /**
      * Gets or sets the StartDate
      */
-    startDate?: Date;
+    StartDate?: Date;
     /**
      * Gets or sets the StartingMeterReading
      */
-    startingMeterReading?: number;
+    StartingMeterReading?: number;
     /**
      * Gets or sets the CurrentMeterReading
      */
-    currentMeterReading?: number;
+    CurrentMeterReading?: number;
     /**
      * Gets or sets the CurrentMeterUsage
      */
-    currentMeterUsage?: number;
+    CurrentMeterUsage?: number;
     /**
      * Gets or sets the DateRead
      */
-    dateRead?: Date;
+    DateRead?: Date;
     /**
      * Gets or sets the LastReading
      */
-    lastReading?: number;
+    LastReading?: number;
     /**
      * Gets or sets the LastUsage
      */
-    lastUsage?: number;
+    LastUsage?: number;
     /**
      * Gets or sets the LastDateRead
      */
-    lastDateRead?: Date;
+    LastDateRead?: Date;
     /**
      * Gets or sets the EndDate
      */
-    endDate?: Date;
+    EndDate?: Date;
     /**
      * Gets or sets the LastBilledDate
      */
-    lastBilledDate?: Date;
+    LastBilledDate?: Date;
     /**
      * Gets or sets the TotalUsage
      */
-    totalUsage?: number;
+    TotalUsage?: number;
     /**
      * Gets or sets the TotalUsage
      */
-    inactive?: boolean;
+    Inactive?: boolean;
 }

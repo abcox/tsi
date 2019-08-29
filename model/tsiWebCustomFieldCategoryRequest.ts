@@ -12,7 +12,7 @@
 
 
 export interface TsiWebCustomFieldCategoryRequest {
-    categoryName: string;
-    availableInGui?: boolean;
-    previousCategoryName?: string;
+    CategoryName: string;
+    AvailableInGui?: boolean;
+    PreviousCategoryName?: string;
 }

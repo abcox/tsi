@@ -12,7 +12,7 @@
 
 
 export interface TsiWebExpenseType {
-    expenseTypeNumber?: number;
-    expenseTypeDescription?: string;
-    isMileageExpense?: boolean;
+    ExpenseTypeNumber?: number;
+    ExpenseTypeDescription?: string;
+    IsMileageExpense?: boolean;
 }

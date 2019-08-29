@@ -12,12 +12,12 @@
 
 
 export interface TsiWebCustomFieldDefinitionModel {
-    categoryName?: string;
-    customFieldLabel?: string;
-    description?: string;
-    ordinalPosition?: number;
-    maxLength?: number;
-    minValue?: number;
-    maxValue?: number;
-    dropDownConstraints?: Array<string>;
+    CategoryName?: string;
+    CustomFieldLabel?: string;
+    Description?: string;
+    OrdinalPosition?: number;
+    MaxLength?: number;
+    MinValue?: number;
+    MaxValue?: number;
+    DropDownConstraints?: Array<string>;
 }

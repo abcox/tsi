@@ -12,8 +12,8 @@
 
 
 export interface TsiWebUpdateTaskCheckListModel {
-    taskCheckListNumber?: number;
-    itemText?: string;
-    ordinalPosition?: number;
-    completed?: boolean;
+    TaskCheckListNumber?: number;
+    ItemText?: string;
+    OrdinalPosition?: number;
+    Completed?: boolean;
 }

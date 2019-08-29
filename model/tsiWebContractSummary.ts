@@ -17,53 +17,53 @@ export interface TsiWebContractSummary {
     /**
      * Gets or sets the ContractNumber
      */
-    contractNumber?: number;
+    ContractNumber?: number;
     /**
      * Gets or sets the Contract
      */
-    contract?: TsiWebContract;
+    Contract?: TsiWebContract;
     /**
      * Gets or sets the created by rep name
      */
-    createdByRepName?: string;
+    CreatedByRepName?: string;
     /**
      * Gets or sets the created by rep email address
      */
-    createdByRepEmailAddress?: string;
+    CreatedByRepEmailAddress?: string;
     /**
      * Gets or sets the created by rep phone number
      */
-    createdByRepPhoneNumber?: string;
+    CreatedByRepPhoneNumber?: string;
     /**
      * Gets or sets the assigned tech rep name
      */
-    assignedTechRepName?: string;
+    AssignedTechRepName?: string;
     /**
      * Gets or sets the assigned tech rep email adress
      */
-    assignedTechRepEmailAddress?: string;
+    AssignedTechRepEmailAddress?: string;
     /**
      * Gets or sets the assigned tech rep phone number
      */
-    assignedTechRepPhoneNumber?: string;
+    AssignedTechRepPhoneNumber?: string;
     /**
      * Gets or sets the rep to credit rep name
      */
-    repToCreditName?: string;
+    RepToCreditName?: string;
     /**
      * Gets or sets the rep to credit rep email address
      */
-    repToCreditEmailAddress?: string;
+    RepToCreditEmailAddress?: string;
     /**
      * Gets or sets the rep to credit rep phone number
      */
-    repToCreditPhoneNumber?: string;
+    RepToCreditPhoneNumber?: string;
     /**
      * Gets or sets the ContractAccount
      */
-    contractAccount?: Array<TsiWebContractAccount>;
+    ContractAccount?: Array<TsiWebContractAccount>;
     /**
      * Gets or sets the ItemsCovered
      */
-    itemsCovered?: number;
+    ItemsCovered?: number;
 }

@@ -13,7 +13,7 @@ import { TsiWebAccountExternalProduct } from './tsiWebAccountExternalProduct';
 
 
 export interface TsiWebAccountExternalProductResponse {
-    externalProduct?: TsiWebAccountExternalProduct;
-    success?: boolean;
-    message?: string;
+    ExternalProduct?: TsiWebAccountExternalProduct;
+    Success?: boolean;
+    Message?: string;
 }

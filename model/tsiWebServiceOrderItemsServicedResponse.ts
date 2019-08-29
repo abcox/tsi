@@ -13,10 +13,10 @@ import { TsiWebItemServiced } from './tsiWebItemServiced';
 
 
 export interface TsiWebServiceOrderItemsServicedResponse {
-    itemsServiced?: Array<TsiWebItemServiced>;
-    pageSize?: number;
-    nextRow?: number;
-    totalCount?: number;
-    success?: boolean;
-    message?: string;
+    ItemsServiced?: Array<TsiWebItemServiced>;
+    PageSize?: number;
+    NextRow?: number;
+    TotalCount?: number;
+    Success?: boolean;
+    Message?: string;
 }

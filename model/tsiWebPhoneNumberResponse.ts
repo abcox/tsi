@@ -13,7 +13,7 @@ import { TsiWebPhoneNumber } from './tsiWebPhoneNumber';
 
 
 export interface TsiWebPhoneNumberResponse {
-    number?: TsiWebPhoneNumber;
-    success?: boolean;
-    message?: string;
+    Number?: TsiWebPhoneNumber;
+    Success?: boolean;
+    Message?: string;
 }

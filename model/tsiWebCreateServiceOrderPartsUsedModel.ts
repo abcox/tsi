@@ -13,27 +13,27 @@ import { SystemNullableTsiWebOptionalDateTime } from './systemNullableTsiWebOpti
 
 
 export interface TsiWebCreateServiceOrderPartsUsedModel {
-    lineNumber?: number;
-    itemId?: string;
-    priceBookItemNumber?: number;
-    itemDescription?: string;
-    useBookPricesAndDiscounts?: boolean;
-    allowPriceLessThanCost?: boolean;
-    taxable?: boolean;
-    subjectToProviderTax?: boolean;
-    printOnInvoice?: boolean;
-    underContract?: boolean;
-    itemCanBeDiscounted?: boolean;
-    estimatedCost?: number;
-    useThisCostWhenOrdering?: boolean;
-    costGLCode?: string;
-    incomeGLCode?: string;
-    priceLevel?: number;
-    sellingPrice?: number;
-    quantity?: number;
-    serviceOrderItemsServicedNumber?: number;
-    memo?: string;
-    orderByDate?: SystemNullableTsiWebOptionalDateTime;
-    projectPhaseNumber?: number;
-    installLocation?: string;
+    LineNumber?: number;
+    ItemId?: string;
+    PriceBookItemNumber?: number;
+    ItemDescription?: string;
+    UseBookPricesAndDiscounts?: boolean;
+    AllowPriceLessThanCost?: boolean;
+    Taxable?: boolean;
+    SubjectToProviderTax?: boolean;
+    PrintOnInvoice?: boolean;
+    UnderContract?: boolean;
+    ItemCanBeDiscounted?: boolean;
+    EstimatedCost?: number;
+    UseThisCostWhenOrdering?: boolean;
+    CostGLCode?: string;
+    IncomeGLCode?: string;
+    PriceLevel?: number;
+    SellingPrice?: number;
+    Quantity?: number;
+    ServiceOrderItemsServicedNumber?: number;
+    Memo?: string;
+    OrderByDate?: SystemNullableTsiWebOptionalDateTime;
+    ProjectPhaseNumber?: number;
+    InstallLocation?: string;
 }

@@ -12,5 +12,5 @@
 
 
 export interface SystemNullableTsiWebOptionalDateTime {
-    dateTime?: Date;
+    DateTime?: Date;
 }

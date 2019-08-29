@@ -15,92 +15,92 @@ export interface TsiWebPriceBookItem {
     /**
      * Gets or sets PartNumber of the item in the pricebook.
      */
-    partNumber?: string;
+    PartNumber?: string;
     /**
      * Gets or sets the item description in the pricebook.
      */
-    itemDescription: string;
+    ItemDescription: string;
     /**
      * Gets or sets the Type.
      */
-    type?: string;
+    Type?: string;
     /**
      * Gets or sets the item status.
      */
-    status: string;
+    Status: string;
     /**
      * Gets or sets Created Date of the item in the pricebook.
      */
-    dateCreated?: Date;
+    DateCreated?: Date;
     /**
      * Gets or sets LastEditDate of the item in the pricebook.
      */
-    lastEditDate?: Date;
+    LastEditDate?: Date;
     /**
      * Gets or sets LastSoldDate of the item in the pricebook.
      */
-    lastSoldDate?: Date;
+    LastSoldDate?: Date;
     /**
      * Gets or sets ManufacturerListPrice of the item in the pricebook.
      */
-    manufacturerListPrice?: number;
+    ManufacturerListPrice?: number;
     /**
      * Gets or sets the description in the pricebook.
      */
-    description2?: string;
+    Description2?: string;
     /**
      * Gets or sets the description in the pricebook.
      */
-    description3?: string;
+    Description3?: string;
     /**
      * Gets or sets the ItemCategory.
      */
-    itemCategory?: string;
+    ItemCategory?: string;
     /**
      * Gets or sets the ItemSubCategory.
      */
-    itemSubCategory?: string;
+    ItemSubCategory?: string;
     /**
      * Gets or sets the item Comments.
      */
-    comments: string;
-    itemCanBeDiscounted?: boolean;
-    features?: string;
-    manufacturerName?: string;
-    manufacturerPartNumber?: string;
-    unitOfMeasure?: string;
-    weight?: string;
+    Comments: string;
+    ItemCanBeDiscounted?: boolean;
+    Features?: string;
+    ManufacturerName?: string;
+    ManufacturerPartNumber?: string;
+    UnitOfMeasure?: string;
+    Weight?: string;
     UPC?: string;
-    warrantyDays?: string;
-    iVRPartNumber?: number;
-    laborHoursRequired?: number;
-    bin?: string;
-    itemURL?: string;
-    pictureFile?: string;
-    serialized?: boolean;
-    inactive?: boolean;
-    hotItem?: boolean;
-    taxable?: boolean;
-    subjectToSingleItemTax?: boolean;
-    subjectToProviderTax?: boolean;
-    gSTExempt?: boolean;
-    useAssemblyGLCodes?: boolean;
-    printOnInvoice?: boolean;
-    printOnQuote?: boolean;
-    addToCustomerInventory?: boolean;
-    addOnlyAssemblyDetailtoCustomerInventory?: boolean;
-    receivingGLCode?: string;
-    maintenancePrice?: number;
-    maintenancePercentage?: number;
-    baseCost?: number;
-    repairCost?: number;
-    averageCost?: number;
-    exchangeValue?: number;
-    accountingLinkSalesCode?: string;
-    discountTier?: number;
-    applyQuantityDiscountsToAssemblyDetail?: boolean;
-    assemblyType?: string;
-    primaryVendorAccountNumber?: number;
-    providerTaxTypeNumber?: number;
-    defaultProjectPhaseNumber?: number;
+    WarrantyDays?: string;
+    IVRPartNumber?: number;
+    LaborHoursRequired?: number;
+    Bin?: string;
+    ItemURL?: string;
+    PictureFile?: string;
+    Serialized?: boolean;
+    Inactive?: boolean;
+    HotItem?: boolean;
+    Taxable?: boolean;
+    SubjectToSingleItemTax?: boolean;
+    SubjectToProviderTax?: boolean;
+    GSTExempt?: boolean;
+    UseAssemblyGLCodes?: boolean;
+    PrintOnInvoice?: boolean;
+    PrintOnQuote?: boolean;
+    AddToCustomerInventory?: boolean;
+    AddOnlyAssemblyDetailtoCustomerInventory?: boolean;
+    ReceivingGLCode?: string;
+    MaintenancePrice?: number;
+    MaintenancePercentage?: number;
+    BaseCost?: number;
+    RepairCost?: number;
+    AverageCost?: number;
+    ExchangeValue?: number;
+    AccountingLinkSalesCode?: string;
+    DiscountTier?: number;
+    ApplyQuantityDiscountsToAssemblyDetail?: boolean;
+    AssemblyType?: string;
+    PrimaryVendorAccountNumber?: number;
+    ProviderTaxTypeNumber?: number;
+    DefaultProjectPhaseNumber?: number;
 }

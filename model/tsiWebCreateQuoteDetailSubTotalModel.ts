@@ -12,10 +12,10 @@
 
 
 export interface TsiWebCreateQuoteDetailSubTotalModel {
-    headerDescription?: string;
-    footerDescription?: string;
-    headerLineNumber?: number;
-    footerLineNumber?: number;
-    printSubtotalInHeader?: boolean;
-    printOnQuote?: boolean;
+    HeaderDescription?: string;
+    FooterDescription?: string;
+    HeaderLineNumber?: number;
+    FooterLineNumber?: number;
+    PrintSubtotalInHeader?: boolean;
+    PrintOnQuote?: boolean;
 }

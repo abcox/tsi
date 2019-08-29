@@ -12,24 +12,24 @@
 
 
 export interface TsiWebServiceOrderTemplateTask {
-    serviceOrderTemplateTaskNumber?: number;
-    stepNumber?: number;
-    subject?: string;
-    location?: string;
-    taskType?: string;
-    taskAction?: string;
-    priority?: string;
-    taskComment?: string;
-    resourceName?: string;
-    duration?: number;
-    durationIntervalType?: string;
-    scheduleAfterTask?: string;
-    previousTaskoffset?: number;
-    offSetIntervalType?: string;
-    repType?: number;
-    repTypeDescription?: string;
-    repNumber?: number;
-    repName?: string;
-    repGroup?: string;
-    startTime?: Date;
+    ServiceOrderTemplateTaskNumber?: number;
+    StepNumber?: number;
+    Subject?: string;
+    Location?: string;
+    TaskType?: string;
+    TaskAction?: string;
+    Priority?: string;
+    TaskComment?: string;
+    ResourceName?: string;
+    Duration?: number;
+    DurationIntervalType?: string;
+    ScheduleAfterTask?: string;
+    PreviousTaskoffset?: number;
+    OffSetIntervalType?: string;
+    RepType?: number;
+    RepTypeDescription?: string;
+    RepNumber?: number;
+    RepName?: string;
+    RepGroup?: string;
+    StartTime?: Date;
 }

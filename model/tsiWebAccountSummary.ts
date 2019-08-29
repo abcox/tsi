@@ -13,25 +13,25 @@ import { TsiWebAccount } from './tsiWebAccount';
 
 
 export interface TsiWebAccountSummary {
-    accountNumber?: number;
-    account?: TsiWebAccount;
-    phoneNumber?: string;
-    faxNumber?: string;
-    repName?: string;
-    repEmailAddress?: string;
-    repPhoneNumber?: string;
-    primaryContactName?: string;
-    primaryContactEmailAddress?: string;
-    primaryContactPhoneNumber?: string;
-    relatedAccounts?: number;
-    parentAccountNumber?: number;
-    journalEntries?: number;
-    openInvoices?: number;
-    openQuotes?: number;
-    openOpportunities?: number;
-    openProjectCount?: number;
-    openServiceOrders?: number;
-    pastDueTasks?: number;
-    openRMAs?: number;
-    numberOfContacts?: number;
+    AccountNumber?: number;
+    Account?: TsiWebAccount;
+    PhoneNumber?: string;
+    FaxNumber?: string;
+    RepName?: string;
+    RepEmailAddress?: string;
+    RepPhoneNumber?: string;
+    PrimaryContactName?: string;
+    PrimaryContactEmailAddress?: string;
+    PrimaryContactPhoneNumber?: string;
+    RelatedAccounts?: number;
+    ParentAccountNumber?: number;
+    JournalEntries?: number;
+    OpenInvoices?: number;
+    OpenQuotes?: number;
+    OpenOpportunities?: number;
+    OpenProjectCount?: number;
+    OpenServiceOrders?: number;
+    PastDueTasks?: number;
+    OpenRMAs?: number;
+    NumberOfContacts?: number;
 }

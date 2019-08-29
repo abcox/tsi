@@ -13,7 +13,7 @@ import { TsiWebItemCovered } from './tsiWebItemCovered';
 
 
 export interface TsiWebContractDetailResponse {
-    itemsCovered?: Array<TsiWebItemCovered>;
-    success?: boolean;
-    message?: string;
+    ItemsCovered?: Array<TsiWebItemCovered>;
+    Success?: boolean;
+    Message?: string;
 }

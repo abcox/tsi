@@ -12,7 +12,7 @@
 
 
 export interface TsiWebServiceOrderSeverity {
-    serviceOrderSeverityNumber?: number;
-    severity?: string;
-    rank?: number;
+    ServiceOrderSeverityNumber?: number;
+    Severity?: string;
+    Rank?: number;
 }

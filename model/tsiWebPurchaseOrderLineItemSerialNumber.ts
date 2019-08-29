@@ -15,9 +15,9 @@
  * This class is for the serial numbers on a purchase order line item, these are the only fields saved until posting the line item.
  */
 export interface TsiWebPurchaseOrderLineItemSerialNumber {
-    serialNumber?: string;
-    comments?: string;
-    itemId?: string;
-    purchaseOrderAssemblyDetailNumber?: number;
-    posted?: boolean;
+    SerialNumber?: string;
+    Comments?: string;
+    ItemId?: string;
+    PurchaseOrderAssemblyDetailNumber?: number;
+    Posted?: boolean;
 }

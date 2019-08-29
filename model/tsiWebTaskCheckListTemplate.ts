@@ -13,6 +13,6 @@ import { TsiWebTaskCheckListTemplateItem } from './tsiWebTaskCheckListTemplateIt
 
 
 export interface TsiWebTaskCheckListTemplate {
-    checkListTemplateName?: string;
-    checkListTemplateItems?: Array<TsiWebTaskCheckListTemplateItem>;
+    CheckListTemplateName?: string;
+    CheckListTemplateItems?: Array<TsiWebTaskCheckListTemplateItem>;
 }

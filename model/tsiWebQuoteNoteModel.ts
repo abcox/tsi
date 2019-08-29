@@ -12,9 +12,9 @@
 
 
 export interface TsiWebQuoteNoteModel {
-    contactNumber?: number;
-    repNumber?: number;
-    topic?: string;
-    note?: string;
-    noteDate?: Date;
+    ContactNumber?: number;
+    RepNumber?: number;
+    Topic?: string;
+    Note?: string;
+    NoteDate?: Date;
 }

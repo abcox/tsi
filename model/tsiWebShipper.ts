@@ -12,6 +12,6 @@
 
 
 export interface TsiWebShipper {
-    shipperName?: string;
-    phoneNumber?: string;
+    ShipperName?: string;
+    PhoneNumber?: string;
 }

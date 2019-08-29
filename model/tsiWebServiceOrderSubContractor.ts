@@ -12,19 +12,19 @@
 
 
 export interface TsiWebServiceOrderSubContractor {
-    assignedSubContractorID?: number;
-    serviceOrderNumber?: number;
-    accountNumber?: number;
-    accountName?: string;
-    responsibility?: string;
-    projectedStartDate?: Date;
-    actualStartDate?: Date;
-    projectedCompletionDate?: Date;
-    actualCompleteDate?: Date;
-    bidPrice?: number;
-    actualPrice?: number;
-    workRequested?: string;
-    workAgreementInPlace?: boolean;
-    subContractorGetsPermits?: boolean;
-    fieldReportsCurrent?: boolean;
+    AssignedSubContractorID?: number;
+    ServiceOrderNumber?: number;
+    AccountNumber?: number;
+    AccountName?: string;
+    Responsibility?: string;
+    ProjectedStartDate?: Date;
+    ActualStartDate?: Date;
+    ProjectedCompletionDate?: Date;
+    ActualCompleteDate?: Date;
+    BidPrice?: number;
+    ActualPrice?: number;
+    WorkRequested?: string;
+    WorkAgreementInPlace?: boolean;
+    SubContractorGetsPermits?: boolean;
+    FieldReportsCurrent?: boolean;
 }

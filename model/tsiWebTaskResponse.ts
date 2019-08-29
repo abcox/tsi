@@ -13,7 +13,7 @@ import { TsiWebTaskSummary } from './tsiWebTaskSummary';
 
 
 export interface TsiWebTaskResponse {
-    taskSummary?: TsiWebTaskSummary;
-    success?: boolean;
-    message?: string;
+    TaskSummary?: TsiWebTaskSummary;
+    Success?: boolean;
+    Message?: string;
 }

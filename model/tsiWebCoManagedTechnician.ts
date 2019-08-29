@@ -12,15 +12,15 @@
 
 
 export interface TsiWebCoManagedTechnician {
-    repNumber?: number;
-    accountGroup?: string;
-    isAccountGroup?: boolean;
-    inactive?: boolean;
-    firstName?: string;
-    lastName?: string;
-    phoneNumber?: string;
-    emailAddress?: string;
-    title?: string;
-    displayName?: string;
-    searchName?: string;
+    RepNumber?: number;
+    AccountGroup?: string;
+    IsAccountGroup?: boolean;
+    Inactive?: boolean;
+    FirstName?: string;
+    LastName?: string;
+    PhoneNumber?: string;
+    EmailAddress?: string;
+    Title?: string;
+    DisplayName?: string;
+    SearchName?: string;
 }

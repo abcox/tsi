@@ -12,18 +12,18 @@
 
 
 export interface TsiWebExpenseModel {
-    expenseTypeNumber?: number;
-    expenseType?: string;
-    repNumber?: number;
-    expensePaymentTypeNumber?: number;
-    expensePaymentType?: string;
-    expenseDateTime?: Date;
-    expenseAmount?: number;
-    odometerStart?: number;
-    odometerEnd?: number;
-    distance?: number;
-    comments?: string;
-    billable?: boolean;
-    reimbursable?: boolean;
-    distanceType?: string;
+    ExpenseTypeNumber?: number;
+    ExpenseType?: string;
+    RepNumber?: number;
+    ExpensePaymentTypeNumber?: number;
+    ExpensePaymentType?: string;
+    ExpenseDateTime?: Date;
+    ExpenseAmount?: number;
+    OdometerStart?: number;
+    OdometerEnd?: number;
+    Distance?: number;
+    Comments?: string;
+    Billable?: boolean;
+    Reimbursable?: boolean;
+    DistanceType?: string;
 }

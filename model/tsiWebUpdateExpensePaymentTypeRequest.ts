@@ -12,6 +12,6 @@
 
 
 export interface TsiWebUpdateExpensePaymentTypeRequest {
-    existingExpensePaymentType?: string;
-    newExpensePaymentTypeDescription?: string;
+    ExistingExpensePaymentType?: string;
+    NewExpensePaymentTypeDescription?: string;
 }

@@ -12,24 +12,24 @@
 
 
 export interface TsiWebTimeEntryReason {
-    logReason?: string;
-    chargable?: boolean;
-    standardRate?: number;
-    itemID?: string;
-    logType?: string;
-    unitFactor?: number;
-    billable?: boolean;
-    laborItemID?: string;
-    billingUnit?: string;
+    LogReason?: string;
+    Chargable?: boolean;
+    StandardRate?: number;
+    ItemID?: string;
+    LogType?: string;
+    UnitFactor?: number;
+    Billable?: boolean;
+    LaborItemID?: string;
+    BillingUnit?: string;
     IVRID?: number;
-    roundingToNearestMinutes?: number;
-    minimumMinutes?: number;
-    laborRateCategoryNumber?: number;
-    laborRateCategoryDescription?: string;
-    overtimeIndicator?: boolean;
-    premiumTimeIndicator?: boolean;
-    doNotCopyToWorkPerformed?: boolean;
-    rGBColor?: number;
-    creditUtilizationTime?: boolean;
-    appliesTo?: string;
+    RoundingToNearestMinutes?: number;
+    MinimumMinutes?: number;
+    LaborRateCategoryNumber?: number;
+    LaborRateCategoryDescription?: string;
+    OvertimeIndicator?: boolean;
+    PremiumTimeIndicator?: boolean;
+    DoNotCopyToWorkPerformed?: boolean;
+    RGBColor?: number;
+    CreditUtilizationTime?: boolean;
+    AppliesTo?: string;
 }

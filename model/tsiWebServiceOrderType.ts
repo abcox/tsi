@@ -12,9 +12,9 @@
 
 
 export interface TsiWebServiceOrderType {
-    type?: string;
-    autoPrint?: boolean;
-    systemEntry?: boolean;
-    systemDefault?: boolean;
-    priority?: string;
+    Type?: string;
+    AutoPrint?: boolean;
+    SystemEntry?: boolean;
+    SystemDefault?: boolean;
+    Priority?: string;
 }

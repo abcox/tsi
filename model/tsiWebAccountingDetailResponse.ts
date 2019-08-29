@@ -13,7 +13,7 @@ import { TsiWebAccounting } from './tsiWebAccounting';
 
 
 export interface TsiWebAccountingDetailResponse {
-    accountingDetail?: TsiWebAccounting;
-    success?: boolean;
-    message?: string;
+    AccountingDetail?: TsiWebAccounting;
+    Success?: boolean;
+    Message?: string;
 }

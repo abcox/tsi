@@ -12,16 +12,16 @@
 
 
 export interface TsiWebVendorItem {
-    cost?: number;
-    quantity?: number;
-    isStockItem?: boolean;
-    isRepair?: boolean;
-    itemId?: string;
-    itemDescription?: string;
-    priceBookItemType?: string;
-    relatedOrderType?: string;
-    relatedOrderNumber?: number;
-    relatedOrderDetailNumber?: number;
-    relatedOrderAssemblyDetailNumber?: number;
-    expectedDate?: Date;
+    Cost?: number;
+    Quantity?: number;
+    IsStockItem?: boolean;
+    IsRepair?: boolean;
+    ItemId?: string;
+    ItemDescription?: string;
+    PriceBookItemType?: string;
+    RelatedOrderType?: string;
+    RelatedOrderNumber?: number;
+    RelatedOrderDetailNumber?: number;
+    RelatedOrderAssemblyDetailNumber?: number;
+    ExpectedDate?: Date;
 }

@@ -17,6 +17,7 @@ import { HttpClient, HttpHeaders, HttpParams,
 import { CustomHttpUrlEncodingCodec }                        from '../encoder';
 
 import { Observable }                                        from 'rxjs/Observable';
+import { map }                                        from 'rxjs/operators';
 
 import { TsiWebAdvancedSearchRequest } from '../model/tsiWebAdvancedSearchRequest';
 import { TsiWebAssignedMarketingProfilesResponse } from '../model/tsiWebAssignedMarketingProfilesResponse';
@@ -646,13 +647,15 @@ export class ServiceOrdersService {
         }
 
         this.basePath = 'https://api2.tigerpawsoftware.com'; // todo.. temp override until I can figure out how to pass this in correctly!
-        let url = `https://api3.tigerpawsoftware.com/api/serviceorders/${encodeURIComponent(String(serviceOrderNumber))}/parts`;
+        let url = `/api/serviceorders/${encodeURIComponent(String(serviceOrderNumber))}/parts`;
 
         headers = this.configuration.setAuthHeaders(
             headers,
             "post", // httpMethod
             url,    // uri
             );
+        url = `${this.basePath}${url}`;
+        console.log('headers: ', JSON.stringify(headers));
 
         return this.httpClient.post<TsiWebServiceOrderPartsUsedResponse>(
             url,
@@ -663,6 +666,12 @@ export class ServiceOrdersService {
                 observe: observe,
                 reportProgress: reportProgress
             }
+        /* ).pipe(
+            //map(response => new TsiWebServiceOrderPartsUsedResponse(response))
+            map((data: any) => new TsiWebServiceOrderPartsUsedResponse(
+                data.PartsUsed,
+                )
+            ) */
         );
     }
 

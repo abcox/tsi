@@ -12,7 +12,7 @@
 
 
 export interface TsiWebUpdateJournalActionRequest {
-    existingAction: string;
-    action?: string;
-    weight?: number;
+    ExistingAction: string;
+    Action?: string;
+    Weight?: number;
 }

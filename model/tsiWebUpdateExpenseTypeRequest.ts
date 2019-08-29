@@ -12,7 +12,7 @@
 
 
 export interface TsiWebUpdateExpenseTypeRequest {
-    existingExpenseTypeDescription?: string;
-    newExpenseTypeDescription?: string;
-    isMileageExpense?: boolean;
+    ExistingExpenseTypeDescription?: string;
+    NewExpenseTypeDescription?: string;
+    IsMileageExpense?: boolean;
 }

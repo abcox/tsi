@@ -17,18 +17,18 @@ import { TsiWebTaskChecklistItem } from './tsiWebTaskChecklistItem';
 
 
 export interface TsiWebTaskDetail {
-    taskNumber?: number;
-    task?: TsiWebTask;
-    account?: TsiWebAccount;
-    contact?: TsiWebPerson;
-    scheduledForRep?: TsiWebPerson;
-    scheduledByRep?: TsiWebPerson;
-    projectName?: string;
-    projectPhase?: string;
-    projectSubPhase?: string;
-    serviceOrderDescription?: string;
-    quoteDescription?: string;
-    opportunityName?: string;
-    taskChecklist?: Array<TsiWebTaskChecklistItem>;
-    customFields?: Array<TsiWebCustomField>;
+    TaskNumber?: number;
+    Task?: TsiWebTask;
+    Account?: TsiWebAccount;
+    Contact?: TsiWebPerson;
+    ScheduledForRep?: TsiWebPerson;
+    ScheduledByRep?: TsiWebPerson;
+    ProjectName?: string;
+    ProjectPhase?: string;
+    ProjectSubPhase?: string;
+    ServiceOrderDescription?: string;
+    QuoteDescription?: string;
+    OpportunityName?: string;
+    TaskChecklist?: Array<TsiWebTaskChecklistItem>;
+    CustomFields?: Array<TsiWebCustomField>;
 }

@@ -13,10 +13,10 @@ import { TsiWebJournalEntrySummary } from './tsiWebJournalEntrySummary';
 
 
 export interface TsiWebJournalEntriesResponse {
-    journalEntries?: Array<TsiWebJournalEntrySummary>;
-    pageSize?: number;
-    nextRow?: number;
-    totalCount?: number;
-    success?: boolean;
-    message?: string;
+    JournalEntries?: Array<TsiWebJournalEntrySummary>;
+    PageSize?: number;
+    NextRow?: number;
+    TotalCount?: number;
+    Success?: boolean;
+    Message?: string;
 }

@@ -15,12 +15,12 @@ export interface TsiWebEmailAddress {
     /**
      * Gets or sets the email address identifier.
      */
-    emailAddressId?: number;
+    EmailAddressId?: number;
     /**
      * Gets or sets the email.
      */
-    email: string;
-    description?: string;
-    doNotEmail?: boolean;
-    isPrimary?: boolean;
+    Email: string;
+    Description?: string;
+    DoNotEmail?: boolean;
+    IsPrimary?: boolean;
 }

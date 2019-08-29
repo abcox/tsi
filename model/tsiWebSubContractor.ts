@@ -12,17 +12,17 @@
 
 
 export interface TsiWebSubContractor {
-    accountNumber?: number;
-    name?: string;
-    address1?: string;
-    address2?: string;
-    city?: string;
-    state?: string;
-    postalCode?: string;
-    country?: string;
-    phoneNumber?: string;
-    primaryContactName?: string;
-    primaryContactEmailAddress?: string;
-    primaryContactPhoneNumber?: string;
-    status?: string;
+    AccountNumber?: number;
+    Name?: string;
+    Address1?: string;
+    Address2?: string;
+    City?: string;
+    State?: string;
+    PostalCode?: string;
+    Country?: string;
+    PhoneNumber?: string;
+    PrimaryContactName?: string;
+    PrimaryContactEmailAddress?: string;
+    PrimaryContactPhoneNumber?: string;
+    Status?: string;
 }

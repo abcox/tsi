@@ -12,10 +12,10 @@
 
 
 export interface TsiWebAccountServiceDetail {
-    serviceZone?: string;
-    defaultSystem?: string;
-    defaultDispatchBoardId?: number;
-    defaultContractId?: number;
-    defaultSubContractorId?: number;
-    defaultServiceTechId?: number;
+    ServiceZone?: string;
+    DefaultSystem?: string;
+    DefaultDispatchBoardId?: number;
+    DefaultContractId?: number;
+    DefaultSubContractorId?: number;
+    DefaultServiceTechId?: number;
 }

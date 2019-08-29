@@ -12,7 +12,7 @@
 
 
 export interface TsiWebCustomFieldSearchModel {
-    criteria?: string;
-    category?: string;
-    field?: string;
+    Criteria?: string;
+    Category?: string;
+    Field?: string;
 }

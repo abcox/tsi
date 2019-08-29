@@ -13,10 +13,10 @@ import { TsiWebOpportunitySummary } from './tsiWebOpportunitySummary';
 
 
 export interface TsiWebSearchOpportunityResponse {
-    opportunities?: Array<TsiWebOpportunitySummary>;
-    pageSize?: number;
-    nextRow?: number;
-    totalCount?: number;
-    success?: boolean;
-    message?: string;
+    Opportunities?: Array<TsiWebOpportunitySummary>;
+    PageSize?: number;
+    NextRow?: number;
+    TotalCount?: number;
+    Success?: boolean;
+    Message?: string;
 }

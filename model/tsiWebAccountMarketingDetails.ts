@@ -16,9 +16,9 @@ import { TsiWebAssignedSICCode } from './tsiWebAssignedSICCode';
 
 
 export interface TsiWebAccountMarketingDetails {
-    accountNumber?: number;
-    detail?: TsiWebAccountMarketingDetail;
-    groups?: Array<TsiWebAssignedMarketingGroup>;
-    profiles?: Array<TsiWebAssignedMarketingProfile>;
-    sICCodes?: Array<TsiWebAssignedSICCode>;
+    AccountNumber?: number;
+    Detail?: TsiWebAccountMarketingDetail;
+    Groups?: Array<TsiWebAssignedMarketingGroup>;
+    Profiles?: Array<TsiWebAssignedMarketingProfile>;
+    SICCodes?: Array<TsiWebAssignedSICCode>;
 }

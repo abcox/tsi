@@ -13,7 +13,7 @@ import { TsiWebTaskChecklistItem } from './tsiWebTaskChecklistItem';
 
 
 export interface TsiWebTaskCheckListResponse {
-    taskCheckList?: Array<TsiWebTaskChecklistItem>;
-    success?: boolean;
-    message?: string;
+    TaskCheckList?: Array<TsiWebTaskChecklistItem>;
+    Success?: boolean;
+    Message?: string;
 }

@@ -12,18 +12,18 @@
 
 
 export interface TsiWebPricingDetail {
-    priceLevel?: number;
-    description?: string;
-    priceOverride?: boolean;
-    sellingPrice?: number;
-    markup?: number;
-    markdown?: number;
-    margin?: number;
-    flatPrice?: number;
-    repairLevel?: boolean;
-    costToUse?: string;
-    priceLevelCategoryName?: string;
-    glCodeOverride?: boolean;
-    incomeGlCode?: string;
-    costGlCode?: string;
+    PriceLevel?: number;
+    Description?: string;
+    PriceOverride?: boolean;
+    SellingPrice?: number;
+    Markup?: number;
+    Markdown?: number;
+    Margin?: number;
+    FlatPrice?: number;
+    RepairLevel?: boolean;
+    CostToUse?: string;
+    PriceLevelCategoryName?: string;
+    GlCodeOverride?: boolean;
+    IncomeGlCode?: string;
+    CostGlCode?: string;
 }

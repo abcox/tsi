@@ -13,7 +13,7 @@ import { TsiWebCustomFieldCategory } from './tsiWebCustomFieldCategory';
 
 
 export interface TsiWebCustomFieldCategoryResponse {
-    category?: TsiWebCustomFieldCategory;
-    success?: boolean;
-    message?: string;
+    Category?: TsiWebCustomFieldCategory;
+    Success?: boolean;
+    Message?: string;
 }

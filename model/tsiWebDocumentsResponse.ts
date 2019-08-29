@@ -13,10 +13,10 @@ import { TsiWebDocumentSummary } from './tsiWebDocumentSummary';
 
 
 export interface TsiWebDocumentsResponse {
-    documents?: Array<TsiWebDocumentSummary>;
-    pageSize?: number;
-    nextRow?: number;
-    totalCount?: number;
-    success?: boolean;
-    message?: string;
+    Documents?: Array<TsiWebDocumentSummary>;
+    PageSize?: number;
+    NextRow?: number;
+    TotalCount?: number;
+    Success?: boolean;
+    Message?: string;
 }

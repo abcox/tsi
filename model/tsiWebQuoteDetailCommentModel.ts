@@ -12,6 +12,6 @@
 
 
 export interface TsiWebQuoteDetailCommentModel {
-    comment?: string;
-    printOnQuote?: boolean;
+    Comment?: string;
+    PrintOnQuote?: boolean;
 }

@@ -12,6 +12,6 @@
 
 
 export interface SystemNullableTsiWebSplitDateTime {
-    date?: Date;
-    time?: Date;
+    Date?: Date;
+    Time?: Date;
 }

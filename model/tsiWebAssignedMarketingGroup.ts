@@ -12,6 +12,6 @@
 
 
 export interface TsiWebAssignedMarketingGroup {
-    group?: string;
-    dateCreated?: Date;
+    Group?: string;
+    DateCreated?: Date;
 }

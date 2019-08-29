@@ -13,10 +13,10 @@ import { TsiWebTimeEntry } from './tsiWebTimeEntry';
 
 
 export interface TsiWebSearchTimeEntryResponse {
-    timeEntries?: Array<TsiWebTimeEntry>;
-    pageSize?: number;
-    nextRow?: number;
-    totalCount?: number;
-    success?: boolean;
-    message?: string;
+    TimeEntries?: Array<TsiWebTimeEntry>;
+    PageSize?: number;
+    NextRow?: number;
+    TotalCount?: number;
+    Success?: boolean;
+    Message?: string;
 }

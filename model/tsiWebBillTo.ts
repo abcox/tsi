@@ -12,16 +12,16 @@
 
 
 export interface TsiWebBillTo {
-    billToId?: number;
-    aRCustomerNumber?: string;
-    isPrimary?: boolean;
-    name?: string;
-    address1?: string;
-    address2?: string;
-    city?: string;
-    state?: string;
-    postalCode?: string;
-    country?: string;
-    contactName?: string;
-    contactPhone?: string;
+    BillToId?: number;
+    ARCustomerNumber?: string;
+    IsPrimary?: boolean;
+    Name?: string;
+    Address1?: string;
+    Address2?: string;
+    City?: string;
+    State?: string;
+    PostalCode?: string;
+    Country?: string;
+    ContactName?: string;
+    ContactPhone?: string;
 }

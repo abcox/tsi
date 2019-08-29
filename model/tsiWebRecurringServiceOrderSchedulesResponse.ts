@@ -13,10 +13,10 @@ import { TsiWebRecurringServiceOrderSchedule } from './tsiWebRecurringServiceOrd
 
 
 export interface TsiWebRecurringServiceOrderSchedulesResponse {
-    recurringServiceOrderSchedules?: Array<TsiWebRecurringServiceOrderSchedule>;
-    pageSize?: number;
-    nextRow?: number;
-    totalCount?: number;
-    success?: boolean;
-    message?: string;
+    RecurringServiceOrderSchedules?: Array<TsiWebRecurringServiceOrderSchedule>;
+    PageSize?: number;
+    NextRow?: number;
+    TotalCount?: number;
+    Success?: boolean;
+    Message?: string;
 }

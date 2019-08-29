@@ -20,15 +20,15 @@ import { TsiWebVendorSummary } from './tsiWebVendorSummary';
 
 
 export interface TsiWebPriceBookItemDetail {
-    itemId?: string;
-    priceBookItemNumber?: number;
-    item?: TsiWebPriceBookItem;
-    defaultProjectPhase?: string;
-    pricing?: Array<TsiWebPricingDetail>;
-    vendors?: Array<TsiWebVendorSummary>;
-    purchasing?: TsiWebPurchasing;
-    inventory?: TsiWebInventoryCount;
-    assembly?: Array<TsiWebAssemblyDetail>;
-    discounts?: Array<TsiWebDiscount>;
-    customFields?: Array<TsiWebCustomField>;
+    ItemId?: string;
+    PriceBookItemNumber?: number;
+    Item?: TsiWebPriceBookItem;
+    DefaultProjectPhase?: string;
+    Pricing?: Array<TsiWebPricingDetail>;
+    Vendors?: Array<TsiWebVendorSummary>;
+    Purchasing?: TsiWebPurchasing;
+    Inventory?: TsiWebInventoryCount;
+    Assembly?: Array<TsiWebAssemblyDetail>;
+    Discounts?: Array<TsiWebDiscount>;
+    CustomFields?: Array<TsiWebCustomField>;
 }

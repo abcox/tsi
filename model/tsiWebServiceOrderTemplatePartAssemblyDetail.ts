@@ -12,16 +12,16 @@
 
 
 export interface TsiWebServiceOrderTemplatePartAssemblyDetail {
-    serviceOrderTemplatePartAssemblyDetailNumber?: number;
-    sequenceNumber?: number;
-    itemID?: string;
-    itemDescription?: string;
-    quantity?: number;
-    pricingMethod?: string;
-    fixedPrice?: number;
-    priceLevel?: number;
-    priceLevelDescription?: string;
-    type?: string;
-    itemNotes?: string;
-    printOnInvoice?: boolean;
+    ServiceOrderTemplatePartAssemblyDetailNumber?: number;
+    SequenceNumber?: number;
+    ItemID?: string;
+    ItemDescription?: string;
+    Quantity?: number;
+    PricingMethod?: string;
+    FixedPrice?: number;
+    PriceLevel?: number;
+    PriceLevelDescription?: string;
+    Type?: string;
+    ItemNotes?: string;
+    PrintOnInvoice?: boolean;
 }

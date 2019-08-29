@@ -13,7 +13,7 @@ import { TsiWebBillTo } from './tsiWebBillTo';
 
 
 export interface TsiWebBillToResponse {
-    billTo?: TsiWebBillTo;
-    success?: boolean;
-    message?: string;
+    BillTo?: TsiWebBillTo;
+    Success?: boolean;
+    Message?: string;
 }

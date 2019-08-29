@@ -13,11 +13,11 @@ import { TsiWebPurchaseOrder } from './tsiWebPurchaseOrder';
 
 
 export interface TsiWebPurchaseOrderSummary {
-    purchaseOrderNumber?: number;
-    purchaseOrder?: TsiWebPurchaseOrder;
-    vendorAccountNumber?: number;
-    vendorAccountName?: string;
-    purchaseOrderLineItems?: number;
-    purchaseOrderRelatedDocuments?: number;
-    hasReceipts?: boolean;
+    PurchaseOrderNumber?: number;
+    PurchaseOrder?: TsiWebPurchaseOrder;
+    VendorAccountNumber?: number;
+    VendorAccountName?: string;
+    PurchaseOrderLineItems?: number;
+    PurchaseOrderRelatedDocuments?: number;
+    HasReceipts?: boolean;
 }

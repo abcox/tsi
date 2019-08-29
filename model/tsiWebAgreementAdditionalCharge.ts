@@ -15,53 +15,53 @@ export interface TsiWebAgreementAdditionalCharge {
     /**
      * Gets or sets DetailId
      */
-    detailId?: number;
+    DetailId?: number;
     /**
      * Gets or sets SpecialItemId
      */
-    specialItemId?: string;
+    SpecialItemId?: string;
     /**
      * Gets or sets the ItemDescription
      */
-    itemDescription?: string;
+    ItemDescription?: string;
     /**
      * Gets or sets the Quantity
      */
-    quantity?: number;
+    Quantity?: number;
     /**
      * Gets or sets the Price
      */
-    price?: number;
+    Price?: number;
     /**
      * Gets or sets the PriceLevel
      */
-    priceLevel?: number;
+    PriceLevel?: number;
     /**
      * Gets or sets the PriceLevelDescription
      */
-    priceLevelDescription?: string;
+    PriceLevelDescription?: string;
     /**
      * Gets or sets the Source
      */
-    source?: number;
+    Source?: number;
     /**
      * Gets or sets the Source Description
      */
-    sourceDescription?: string;
+    SourceDescription?: string;
     /**
      * Gets or sets the PrintWhenQtyZero
      */
-    printWhenQuantityZero?: boolean;
+    PrintWhenQuantityZero?: boolean;
     /**
      * Gets or sets the DeleteAfterInvoicing
      */
-    deleteAfterInvoicing?: boolean;
+    DeleteAfterInvoicing?: boolean;
     /**
      * Gets or sets the DeleteAfterInvoicing
      */
-    dateAdded?: Date;
+    DateAdded?: Date;
     /**
      * Gets or sets the UseFlatPrice
      */
-    useFlatPrice?: boolean;
+    UseFlatPrice?: boolean;
 }

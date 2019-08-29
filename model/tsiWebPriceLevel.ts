@@ -12,17 +12,17 @@
 
 
 export interface TsiWebPriceLevel {
-    priceLevelId?: number;
-    priceLevelCategoryId?: number;
-    priceLevelCategory?: string;
-    description?: string;
-    incomeGeneralLedgerCode?: string;
-    costGeneralLedgerCode?: string;
-    markUp?: number;
-    markDown?: number;
-    margin?: number;
-    isRepairLevel?: boolean;
-    applyQuantityDiscounts?: boolean;
-    priceBasis?: number;
-    costToUse?: number;
+    PriceLevelId?: number;
+    PriceLevelCategoryId?: number;
+    PriceLevelCategory?: string;
+    Description?: string;
+    IncomeGeneralLedgerCode?: string;
+    CostGeneralLedgerCode?: string;
+    MarkUp?: number;
+    MarkDown?: number;
+    Margin?: number;
+    IsRepairLevel?: boolean;
+    ApplyQuantityDiscounts?: boolean;
+    PriceBasis?: number;
+    CostToUse?: number;
 }

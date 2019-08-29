@@ -13,7 +13,7 @@ import { TsiWebItemServiced } from './tsiWebItemServiced';
 
 
 export interface TsiWebServiceOrderItemServicedResponse {
-    itemServiced?: TsiWebItemServiced;
-    success?: boolean;
-    message?: string;
+    ItemServiced?: TsiWebItemServiced;
+    Success?: boolean;
+    Message?: string;
 }

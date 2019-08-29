@@ -15,73 +15,73 @@ export interface TsiWebContact {
     /**
      * Gets or sets the Account the contact is associated with.
      */
-    accountNumber?: number;
+    AccountNumber?: number;
     /**
      * Gets or sets the prefix.
      */
-    prefix?: string;
+    Prefix?: string;
     /**
      * Gets or sets the first name.
      */
-    firstName: string;
+    FirstName: string;
     /**
      * Gets or sets the middle initial.
      */
-    middleInitial?: string;
+    MiddleInitial?: string;
     /**
      * Gets or sets the last name.
      */
-    lastName: string;
+    LastName: string;
     /**
      * Gets or sets the contcat full name.
      */
-    name?: string;
+    Name?: string;
     /**
      * Gets or sets the title.
      */
-    title?: string;
+    Title?: string;
     /**
      * Gets or sets the department.
      */
-    department?: string;
+    Department?: string;
     /**
      * Gets or sets address line 1.
      */
-    address1?: string;
+    Address1?: string;
     /**
      * Gets or sets address line 2.
      */
-    address2?: string;
+    Address2?: string;
     /**
      * Gets or sets the city.
      */
-    city?: string;
+    City?: string;
     /**
      * Gets or sets the state.
      */
-    state?: string;
+    State?: string;
     /**
      * Gets or sets the postal code.
      */
-    postalCode?: string;
+    PostalCode?: string;
     /**
      * Gets or sets the country.
      */
-    country?: string;
+    Country?: string;
     /**
      * Gets or sets the personal notes.
      */
-    personalNotes?: string;
+    PersonalNotes?: string;
     /**
      * Gets or sets the assistant.
      */
-    assistant?: string;
+    Assistant?: string;
     /**
      * Gets or sets the link identifier.
      */
-    linkId?: number;
+    LinkId?: number;
     /**
      * Gets or sets a value indicating whether this {Tsi.Web.Contact} is inactive.
      */
-    inactive?: boolean;
+    Inactive?: boolean;
 }

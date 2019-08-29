@@ -15,21 +15,21 @@ export interface TsiWebContractMeterGroupBilling {
     /**
      * Gets or sets the contract multiple meter group pricing key number
      */
-    contractMultipleMeterGroupPricingRangeKeyNumber?: number;
+    ContractMultipleMeterGroupPricingRangeKeyNumber?: number;
     /**
      * Gets or sets the contract meter group
      */
-    contractMultipleMeterGroupPricingKeyNumber?: number;
+    ContractMultipleMeterGroupPricingKeyNumber?: number;
     /**
      * Gets or sets the UsageFrom
      */
-    usageFrom?: number;
+    UsageFrom?: number;
     /**
      * Gets or sets the UsageThrough
      */
-    usageThrough?: number;
+    UsageThrough?: number;
     /**
      * Gets or sets the BillingRate
      */
-    billingRate?: number;
+    BillingRate?: number;
 }

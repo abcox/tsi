@@ -12,20 +12,20 @@
 
 
 export interface TsiWebPurchasing {
-    caseItemId?: string;
-    caseDescription?: string;
-    caseUnitOfMeasure?: string;
-    caseQuantity?: number;
-    caseCost?: number;
-    minimumQuantity?: number;
-    maximumQuantity?: number;
-    reorderQuantity?: number;
-    quantityNeededtoFillOrders?: number;
-    quantityShort?: number;
-    receivingLocation?: string;
-    lastReceivedDate?: Date;
-    latestCost?: number;
-    printSingleReceiptLabels?: boolean;
-    updateVendorCost?: boolean;
-    updateBaseCostAndSellPrices?: boolean;
+    CaseItemId?: string;
+    CaseDescription?: string;
+    CaseUnitOfMeasure?: string;
+    CaseQuantity?: number;
+    CaseCost?: number;
+    MinimumQuantity?: number;
+    MaximumQuantity?: number;
+    ReorderQuantity?: number;
+    QuantityNeededtoFillOrders?: number;
+    QuantityShort?: number;
+    ReceivingLocation?: string;
+    LastReceivedDate?: Date;
+    LatestCost?: number;
+    PrintSingleReceiptLabels?: boolean;
+    UpdateVendorCost?: boolean;
+    UpdateBaseCostAndSellPrices?: boolean;
 }

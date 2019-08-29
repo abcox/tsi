@@ -15,33 +15,33 @@ export interface TsiWebContractAccount {
     /**
      * Gets or sets the AccountName
      */
-    accountName?: string;
+    AccountName?: string;
     /**
      * Gets or sets the AccountNumber
      */
-    accountNumber?: number;
+    AccountNumber?: number;
     /**
      * Gets or sets the PrimaryPhoneNumber
      */
-    primaryPhoneNumber?: string;
+    PrimaryPhoneNumber?: string;
     /**
      * Gets or sets the PrimaryFax
      */
-    primaryFax?: string;
+    PrimaryFax?: string;
     /**
      * Gets or sets the Address
      */
-    address?: string;
+    Address?: string;
     /**
      * Gets or sets the City
      */
-    city?: string;
+    City?: string;
     /**
      * Gets or sets the StartdateTime
      */
-    state?: string;
+    State?: string;
     /**
      * Gets or sets the StartdateTime
      */
-    accountID?: string;
+    AccountID?: string;
 }

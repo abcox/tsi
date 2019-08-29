@@ -12,9 +12,9 @@
 
 
 export interface TsiWebServiceOrderComment {
-    id?: number;
-    comment?: string;
-    isWorkPerformed?: boolean;
-    isWorkRequested?: boolean;
-    isInternalComments?: boolean;
+    Id?: number;
+    Comment?: string;
+    IsWorkPerformed?: boolean;
+    IsWorkRequested?: boolean;
+    IsInternalComments?: boolean;
 }

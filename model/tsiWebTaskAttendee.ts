@@ -12,5 +12,5 @@
 
 
 export interface TsiWebTaskAttendee {
-    attendeeRepNumber?: number;
+    AttendeeRepNumber?: number;
 }
