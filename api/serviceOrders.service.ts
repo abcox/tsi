@@ -655,7 +655,7 @@ export class ServiceOrdersService {
             url,    // uri
             );
         url = `${this.basePath}${url}`;
-        console.log('headers: ', JSON.stringify(headers));
+        //console.log('headers: ', JSON.stringify(headers));
 
         return this.httpClient.post<TsiWebServiceOrderPartsUsedResponse>(
             url,

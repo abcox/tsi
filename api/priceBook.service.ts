@@ -109,7 +109,21 @@ export class PriceBookService {
             headers = headers.set("Content-Type", httpContentTypeSelected);
         }
 
-        return this.httpClient.post<TsiWebSearchPriceBookResponse>(`${this.basePath}/api/pricebook/items/search`,
+        
+        // todo.. refactor the path to config file..
+        this.basePath = 'https://api2.tigerpawsoftware.com'; // todo.. temp override until I can figure out how to pass this in correctly!
+        let url = `/api/pricebook/items/search`;
+
+        headers = this.configuration.setAuthHeaders(
+            headers,
+            "post", // httpMethod
+            url,    // uri
+            );
+        url = `${this.basePath}${url}`;
+
+
+        return this.httpClient.post<TsiWebSearchPriceBookResponse>(
+            url,
             request,
             {
                 withCredentials: this.configuration.withCredentials,
@@ -1100,7 +1114,21 @@ export class PriceBookService {
             headers = headers.set("Content-Type", httpContentTypeSelected);
         }
 
-        return this.httpClient.post<TsiWebSearchPriceBookResponse>(`${this.basePath}/api/pricebook/items/search/itemdescription`,
+        
+        // todo.. refactor the path to config file..
+        this.basePath = 'https://api2.tigerpawsoftware.com'; // todo.. temp override until I can figure out how to pass this in correctly!
+        let url = `/api/pricebook/items/search/itemdescription`;
+
+        headers = this.configuration.setAuthHeaders(
+            headers,
+            "post", // httpMethod
+            url,    // uri
+            );
+        url = `${this.basePath}${url}`;
+
+
+        return this.httpClient.post<TsiWebSearchPriceBookResponse>(
+            url,
             criteria,
             {
                 params: queryParameters,
