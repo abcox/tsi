@@ -20,7 +20,7 @@
   "dependencies": {
     "@angular/common": "~7.2.0",
     "@angular/compiler": "~7.2.0",
-    "@angular/core": "~7.2.0",
+    "@angular/core": "~11.0.5",
     "core-js": "^2.5.4",
     "crypto-js": "^3.1.9-1",
     "json-typescript-mapper": "^1.1.3",
